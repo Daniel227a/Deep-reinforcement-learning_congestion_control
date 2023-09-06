@@ -54,73 +54,74 @@ using namespace ns3;
 
 NS_LOG_COMPONENT_DEFINE ("TcpVariantsComparison");
 
-static std::vector<uint32_t> rxPkts;
+static std::vector<uint32_t> rxPkts;//vetor de inteiros armazena contagem de pacotes recebidos
 
 static void
-CountRxPkts(uint32_t sinkId, Ptr<const Packet> packet, const Address & srcAddr)
+CountRxPkts(uint32_t sinkId, Ptr<const Packet> packet, const Address & srcAddr)//contagem de pacotes recebidos
 {
   rxPkts[sinkId]++;
 }
 
 static void
-PrintRxCount()
+PrintRxCount()//mostra pacotes recebidos
 {
   uint32_t size = rxPkts.size();
   NS_LOG_UNCOND("RxPkts:");
   for (uint32_t i=0; i<size; i++){
     NS_LOG_UNCOND("---SinkId: "<< i << " RxPkts: " << rxPkts.at(i));
+    std::cout << i << std::endl;
   }
 }
 
 
 int main (int argc, char *argv[])
 {
-  uint32_t openGymPort = 5555;
-  double tcpEnvTimeStep = 0.1;
+  uint32_t openGymPort = 5555;//porta
+  double tcpEnvTimeStep = 0.1;//delta t 
 
-  uint32_t nLeaf = 1;
-  std::string transport_prot = "TcpRl";
-  double error_p = 0.0;
-  std::string bottleneck_bandwidth = "2Mbps";
-  std::string bottleneck_delay = "0.01ms";
-  std::string access_bandwidth = "10Mbps";
-  std::string access_delay = "20ms";
+  uint32_t nLeaf = 1;//topologia contem uma folha de cada lado ==ponto a ponto 
+  std::string transport_prot = "TcpRl";//nome do protocolo 
+  double error_p = 0.2;//taxa de erro de pacotes 
+  std::string bottleneck_bandwidth = "2Mbps";//largura de banda entre roteadores
+  std::string bottleneck_delay = "0.01ms";//atraso  
+  std::string access_bandwidth = "10Mbps";//largura de banda host
+  std::string access_delay = "20ms";//atrasso de acesso
   std::string prefix_file_name = "TcpVariantsComparison";
-  uint64_t data_mbytes = 0;
-  uint32_t mtu_bytes = 400;
-  double duration = 10.0;
-  uint32_t run = 0;
-  bool flow_monitor = false;
-  bool sack = true;
-  std::string queue_disc_type = "ns3::PfifoFastQueueDisc";
-  std::string recovery = "ns3::TcpClassicRecovery";
+  uint64_t data_mbytes = 1000;//Configura o volume de dados em megabytes que serão transmitidos na simulação. Atualmente, está definido como zero, o que significa que não há transmissão de dados específicos planejada na simulação.
+  uint32_t mtu_bytes = 1500;//define o MTU o tamanho máximo dos pacotes que podem ser transmitidos na rede
+  double duration = 100.0;//duração da simulação em segundos
+  uint32_t run = 0;//duração da simulação em segundos
+  bool flow_monitor = false;//monitoramento de fluxo
+  bool sack = true;//O SACK ajuda o remetente a saber antecipadamente sobre essas lacunas no buffer do receptor
+  std::string queue_disc_type = "ns3::PfifoFastQueueDisc";//algoritmo de disciplina de fila que será usado nos dispositivos de rede
+  std::string recovery = "ns3::TcpClassicRecovery";//Define o tipo de algoritmo de recuperação TCP que será usado
 
-  CommandLine cmd;
+  CommandLine cmd;//processar argumentos da linha de comando 
   // required parameters for OpenGym interface
-  cmd.AddValue ("openGymPort", "Port number for OpenGym env. Default: 5555", openGymPort);
-  cmd.AddValue ("simSeed", "Seed for random generator. Default: 1", run);
-  cmd.AddValue ("envTimeStep", "Time step interval for time-based TCP env [s]. Default: 0.1s", tcpEnvTimeStep);
+  cmd.AddValue ("openGymPort", "Port number for OpenGym env. Default: 5555", openGymPort);//numero da porta openGym
+  cmd.AddValue ("simSeed", "Seed for random generator. Default: 1", run);//semente para o gerador de números aleatórios usado na simulação. A descrição informa que o valor padrão é 1.
+  cmd.AddValue ("envTimeStep", "Time step interval for time-based TCP env [s]. Default: 0.1s", tcpEnvTimeStep);//intervalo de tempo para o ambiente TCP 
   // other parameters
-  cmd.AddValue ("nLeaf",     "Number of left and right side leaf nodes", nLeaf);
+  cmd.AddValue ("nLeaf",     "Number of left and right side leaf nodes", nLeaf);// número de nós folha 
   cmd.AddValue ("transport_prot", "Transport protocol to use: TcpNewReno, "
                 "TcpHybla, TcpHighSpeed, TcpHtcp, TcpVegas, TcpScalable, TcpVeno, "
                 "TcpBic, TcpYeah, TcpIllinois, TcpWestwoodPlus, TcpLedbat, "
-		            "TcpLp, TcpRl, TcpRlTimeBased", transport_prot);
-  cmd.AddValue ("error_p", "Packet error rate", error_p);
-  cmd.AddValue ("bottleneck_bandwidth", "Bottleneck bandwidth", bottleneck_bandwidth);
-  cmd.AddValue ("bottleneck_delay", "Bottleneck delay", bottleneck_delay);
-  cmd.AddValue ("access_bandwidth", "Access link bandwidth", access_bandwidth);
-  cmd.AddValue ("access_delay", "Access link delay", access_delay);
-  cmd.AddValue ("prefix_name", "Prefix of output trace file", prefix_file_name);
-  cmd.AddValue ("data", "Number of Megabytes of data to transmit", data_mbytes);
-  cmd.AddValue ("mtu", "Size of IP packets to send in bytes", mtu_bytes);
-  cmd.AddValue ("duration", "Time to allow flows to run in seconds", duration);
-  cmd.AddValue ("run", "Run index (for setting repeatable seeds)", run);
-  cmd.AddValue ("flow_monitor", "Enable flow monitor", flow_monitor);
-  cmd.AddValue ("queue_disc_type", "Queue disc type for gateway (e.g. ns3::CoDelQueueDisc)", queue_disc_type);
-  cmd.AddValue ("sack", "Enable or disable SACK option", sack);
-  cmd.AddValue ("recovery", "Recovery algorithm type to use (e.g., ns3::TcpPrrRecovery", recovery);
-  cmd.Parse (argc, argv);
+		            "TcpLp, TcpRl, TcpRlTimeBased", transport_prot);//protocolo de transporte a ser usado na simulação
+  cmd.AddValue ("error_p", "Packet error rate", error_p);//representa a taxa de erro de pacote na simulação
+  cmd.AddValue ("bottleneck_bandwidth", "Bottleneck bandwidth", bottleneck_bandwidth);//argura de banda do gargalo na simulação
+  cmd.AddValue ("bottleneck_delay", "Bottleneck delay", bottleneck_delay);//representa o atraso do gargalo na simulação
+  cmd.AddValue ("access_bandwidth", "Access link bandwidth", access_bandwidth);//largura de banda do link de acesso na simulação
+  cmd.AddValue ("access_delay", "Access link delay", access_delay);//o atraso do link de acesso na simulação
+  cmd.AddValue ("prefix_name", "Prefix of output trace file", prefix_file_name);//prefixo para o nome do arquivo de saída que será gerado pela simulação
+  cmd.AddValue ("data", "Number of Megabytes of data to transmit", data_mbytes);//quantidade de dados, em megabytes, que serão transmitidos na simulação
+  cmd.AddValue ("mtu", "Size of IP packets to send in bytes", mtu_bytes);// O MTU representa o tamanho máximo dos pacotes IP 
+  cmd.AddValue ("duration", "Time to allow flows to run in seconds", duration);// tempo que as simulações de fluxos devem ser executadas em segundos.
+  cmd.AddValue ("run", "Run index (for setting repeatable seeds)", run);//eração de números aleatórios na simulação
+  cmd.AddValue ("flow_monitor", "Enable flow monitor", flow_monitor);// monitor de fluxo está ativado ou desativado
+  cmd.AddValue ("queue_disc_type", "Queue disc type for gateway (e.g. ns3::CoDelQueueDisc)", queue_disc_type);// disciplina de fila a ser usada em um gateway.
+  cmd.AddValue ("sack", "Enable or disable SACK option", sack); 
+  cmd.AddValue ("recovery", "Recovery algorithm type to use (e.g., ns3::TcpPrrRecovery", recovery);//tipo de algoritmo de recuperação a ser usado em conexões TCP 
+  cmd.Parse (argc, argv);//Esta linha analisa os argumentos de linha de comando passados para o programa.
 
   transport_prot = std::string ("ns3::") + transport_prot;
 
@@ -143,7 +144,7 @@ int main (int argc, char *argv[])
   Ptr<OpenGymInterface> openGymInterface;
   if (transport_prot.compare ("ns3::TcpRl") == 0)
   {
-    openGymInterface = OpenGymInterface::Get(openGymPort);
+    openGymInterface = OpenGymInterface::Get(openGymPort);//ponteiro para OpenGymInterface
     Config::SetDefault ("ns3::TcpRl::Reward", DoubleValue (2.0)); // Reward when increasing congestion window
     Config::SetDefault ("ns3::TcpRl::Penalty", DoubleValue (-30.0)); // Penalty when decreasing congestion window
   }
@@ -151,14 +152,14 @@ int main (int argc, char *argv[])
   if (transport_prot.compare ("ns3::TcpRlTimeBased") == 0)
   {
     openGymInterface = OpenGymInterface::Get(openGymPort);
-    Config::SetDefault ("ns3::TcpRlTimeBased::StepTime", TimeValue (Seconds(tcpEnvTimeStep))); // Time step of TCP env
+    Config::SetDefault ("ns3::TcpRlTimeBased::StepTime", TimeValue (Seconds(tcpEnvTimeStep))); // Time step of TCP env //define o intervalo de tempo entre etapas (steps) do ambiente.
   }
 
   // Calculate the ADU size
-  Header* temp_header = new Ipv4Header ();
+  Header* temp_header = new Ipv4Header ();// Ipv4Header informações sobre o tamanho do cabeçalho IPv4.
   uint32_t ip_header = temp_header->GetSerializedSize ();
   NS_LOG_LOGIC ("IP Header size is: " << ip_header);
-  delete temp_header;
+  delete temp_header;//é excluído da memória, liberando os recursos alocados dinamicamente.
   temp_header = new TcpHeader ();
   uint32_t tcp_header = temp_header->GetSerializedSize ();
   NS_LOG_LOGIC ("TCP Header size is: " << tcp_header);
@@ -171,14 +172,14 @@ int main (int argc, char *argv[])
   double stop_time = start_time + duration;
 
   // 4 MB of TCP buffer
-  Config::SetDefault ("ns3::TcpSocket::RcvBufSize", UintegerValue (1 << 21));
+  Config::SetDefault ("ns3::TcpSocket::RcvBufSize", UintegerValue (1 << 21));//tamanho do buffer de recepção (RcvBufSize) para os sockets TCP.
   Config::SetDefault ("ns3::TcpSocket::SndBufSize", UintegerValue (1 << 21));
   Config::SetDefault ("ns3::TcpSocketBase::Sack", BooleanValue (sack));
   Config::SetDefault ("ns3::TcpSocket::DelAckCount", UintegerValue (2));
 
 
   Config::SetDefault ("ns3::TcpL4Protocol::RecoveryType",
-                      TypeIdValue (TypeId::LookupByName (recovery)));
+                      TypeIdValue (TypeId::LookupByName (recovery)));//algoritmo de recuperação
   // Select TCP variant
   TypeId tcpTid;
   NS_ABORT_MSG_UNLESS (TypeId::LookupByNameFailSafe (transport_prot, &tcpTid), "TypeId " << transport_prot << " not found");
@@ -186,12 +187,12 @@ int main (int argc, char *argv[])
 
   // Configure the error model
   // Here we use RateErrorModel with packet error rate
-  Ptr<UniformRandomVariable> uv = CreateObject<UniformRandomVariable> ();
+  Ptr<UniformRandomVariable> uv = CreateObject<UniformRandomVariable> ();//gerar números aleatórios uniformemente distribuídos
   uv->SetStream (50);
   RateErrorModel error_model;
   error_model.SetRandomVariable (uv);
-  error_model.SetUnit (RateErrorModel::ERROR_UNIT_PACKET);
-  error_model.SetRate (error_p);
+  error_model.SetUnit (RateErrorModel::ERROR_UNIT_PACKET);//simular erros de pacote com base em uma taxa de erro especificada.
+  error_model.SetRate (error_p);//isso determina a probabilidade de cada pacote ser corrompido durante a simulação
 
   // Create the point-to-point link helpers
   PointToPointHelper bottleNeckLink;
@@ -224,19 +225,19 @@ int main (int argc, char *argv[])
   Time bottle_d (bottleneck_delay);
 
   uint32_t size = static_cast<uint32_t>((std::min (access_b, bottle_b).GetBitRate () / 8) *
-    ((access_d + bottle_d + access_d) * 2).GetSeconds ());
+    ((access_d + bottle_d + access_d) * 2).GetSeconds ());// o tamanho máximo da fila em bytes.
 
   Config::SetDefault ("ns3::PfifoFastQueueDisc::MaxSize",
-                      QueueSizeValue (QueueSize (QueueSizeUnit::PACKETS, size / mtu_bytes)));
+                      QueueSizeValue (QueueSize (QueueSizeUnit::PACKETS, size / mtu_bytes)));//representa o tamanho máximo da unidade de transmissão (MTU) em bytes.
   Config::SetDefault ("ns3::CoDelQueueDisc::MaxSize",
                       QueueSizeValue (QueueSize (QueueSizeUnit::BYTES, size)));
 
-  if (queue_disc_type.compare ("ns3::PfifoFastQueueDisc") == 0)
+  if (queue_disc_type.compare ("ns3::PfifoFastQueueDisc") == 0)//. A disciplina de fila 
   {
     tchPfifo.Install (d.GetLeft()->GetDevice(1));
     tchPfifo.Install (d.GetRight()->GetDevice(1));
   }
-  else if (queue_disc_type.compare ("ns3::CoDelQueueDisc") == 0)
+  else if (queue_disc_type.compare ("ns3::CoDelQueueDisc") == 0)// A disciplina de fila 
   {
     tchCoDel.Install (d.GetLeft()->GetDevice(1));
     tchCoDel.Install (d.GetRight()->GetDevice(1));
@@ -276,11 +277,13 @@ int main (int argc, char *argv[])
     BulkSendHelper ftp ("ns3::TcpSocketFactory", Address ());
     ftp.SetAttribute ("Remote", remoteAddress);
     ftp.SetAttribute ("SendSize", UintegerValue (tcp_adu_size));
-    ftp.SetAttribute ("MaxBytes", UintegerValue (data_mbytes * 1000000));
-
+    ftp.SetAttribute ("MaxBytes", UintegerValue (data_mbytes* 1000000));
+    
+    std::cout << data_mbytes << std::endl;
+    std::cout << data_mbytes << std::endl;
     ApplicationContainer clientApp = ftp.Install (d.GetLeft (i));
-    clientApp.Start (Seconds (start_time * i)); // Start after sink
-    clientApp.Stop (Seconds (stop_time - 3)); // Stop before the sink
+    clientApp.Start (Seconds (start_time )); // Start after sink
+    clientApp.Stop (Seconds (stop_time )); // Stop before the sink
   }
 
   // Flow monitor
@@ -294,9 +297,10 @@ int main (int argc, char *argv[])
   for (uint32_t i = 0; i < d.RightCount (); ++i)
   {
     rxPkts.push_back(0);
-    Ptr<PacketSink> pktSink = DynamicCast<PacketSink>(sinkApps.Get(i));
-    pktSink->TraceConnectWithoutContext ("Rx", MakeBoundCallback (&CountRxPkts, i));
+    Ptr<PacketSink> pktSink = DynamicCast<PacketSink>(sinkApps.Get(i));// PacketSink para rastrear o recebimento
+    pktSink->TraceConnectWithoutContext ("Rx", MakeBoundCallback (&CountRxPkts, i));// contar o número de pacotes recebidos p
   }
+  PrintRxCount();
 
   Simulator::Stop (Seconds (stop_time));
   Simulator::Run ();
