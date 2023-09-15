@@ -1,0 +1,504 @@
+[+] Step: 1
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295       3400        340          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  0.0
+[+] Step: 2
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295       4000        340      27540       3060         18
+          2      88344      80000       8885      10570      61200]
+	[!] Reward:  0.0
+[+] Step: 3
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295       4000        340      15300       3060         10
+          2      95915      80000       8252      16505      34000]
+	[!] Reward:  0.0
+[+] Step: 4
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295       3850        340      15300       3060         10
+          2      97309      80000       8252      16505      34000]
+	[!] Reward:  0.0
+[+] Step: 5
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295       3700        340      13940       2788         10
+          2      98241      80000       9169      16505      34000]
+	[!] Reward:  0.0
+[+] Step: 6
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295       3550        340      16320       2720         12
+          2      97377      80000      12835      25670      40800]
+	[!] Reward:  0.0
+[+] Step: 7
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295       4150        340      33320       3332         20
+          2      89342      80000       4610      10144      68000]
+	[!] Reward:  0.0
+[+] Step: 8
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295       4000        340      18700       3116         12
+          2      86594      80000       7645      14017      40800]
+	[!] Reward:  0.0
+[+] Step: 9
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295       4600        340      18020       3604         10
+          2      85879      80000       6877      16505      34000]
+	[!] Reward:  0.0
+[+] Step: 10
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295       4600        340      22440       3740         12
+          2      92479      80000       7140      14280      40800]
+	[!] Reward:  0.0
+[+] Step: 11
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295       4600        340      26180       3740         14
+          2      96006      80000      10664      21328      47600]
+	[!] Reward:  0.0
+[+] Step: 12
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295       5200        340      47940       4358         22
+          2      95898      80000       4095       8935      74800]
+	[!] Reward:  0.0
+[+] Step: 13
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295       5050        340      32980       4122         16
+          2      95605      80000       5712      10710      54400]
+	[!] Reward:  0.0
+[+] Step: 14
+	[*] Exploiting gained knowledge. Selected action: 2
+	[#] Next state:  [4294967295       4900        340      28560       4080         14
+          2      89021      80000       6007      12014      47600]
+	[!] Reward:  0.0
+[+] Step: 15
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295       4750        340      26520       3788         14
+          2      86005      80000       6469      12014      47600]
+	[!] Reward:  0.0
+[+] Step: 16
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295       4600        340      22440       3740         12
+          2      85491      80000       6877      13754      40800]
+	[!] Reward:  0.0
+[+] Step: 17
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295       5200        340      52360       4363         24
+          2      93071      80000       6348      13754      81600]
+	[!] Reward:  0.0
+[+] Step: 18
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295       5050        340      32980       4122         16
+          2      94827      80000       5712      10710      54400]
+	[!] Reward:  0.0
+[+] Step: 19
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295       5050        340      28560       4080         14
+          2      88794      80000       6007      12014      47600]
+	[!] Reward:  0.0
+[+] Step: 20
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295       4900        340      28560       4080         14
+          2      85952      80000       6007      12014      47600]
+	[!] Reward:  0.0
+[+] Step: 21
+	[*] Exploiting gained knowledge. Selected action: 1
+	[#] Next state:  [4294967295       5500        340      32640       4662         14
+          2      84862      80000       5256      12014      47600]
+	[!] Reward:  0.0
+[+] Step: 22
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295       5500        340      61880       4760         26
+          2      85506      80000       6227      12454      88400]
+	[!] Reward:  0.0
+[+] Step: 23
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295       5350        340      44540       4454         20
+          2      84748      80000       4841       9198      68000]
+	[!] Reward:  0.0
+[+] Step: 24
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295       5350        340      30940       4420         14
+          2      90232      80000       5894      11789      47600]
+	[!] Reward:  0.0
+[+] Step: 25
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295       5950        340      35020       5002         14
+          2      92788      80000       5158      11789      47600]
+	[!] Reward:  0.0
+[+] Step: 26
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295       5950        340      40800       5100         16
+          2      93897      80000       5256      10513      54400]
+	[!] Reward:  0.0
+[+] Step: 27
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295       6550        340      80240       5731         28
+          2      94329      80000       5291      11339      95200]
+	[!] Reward:  0.0
+[+] Step: 28
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295       6550        340      69360       5780         24
+          2      92956      80000       3832       7665      81600]
+	[!] Reward:  0.0
+[+] Step: 29
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295       6400        340      49300       5477         18
+          2      92192      80000       4854       9169      61200]
+	[!] Reward:  0.0
+[+] Step: 30
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295       6400        340      48960       5440         18
+          2      91234      80000       4672       9344      61200]
+	[!] Reward:  0.0
+[+] Step: 31
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295       6250        340      54400       5440         20
+          2      86153      80000       7070      14141      68000]
+	[!] Reward:  0.0
+[+] Step: 32
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295       6850        340      78880       6067         26
+          2      84673      80000       3510       7560      88400]
+	[!] Reward:  0.0
+[+] Step: 33
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295       6850        340      91800       6120         30
+          2      85453      80000       3328       6657     102000]
+	[!] Reward:  0.0
+[+] Step: 34
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295       6700        340      58140       5814         20
+          2      84335      80000       4426       8410      68000]
+	[!] Reward:  0.0
+[+] Step: 35
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295       7300        340      57460       6384         18
+          2      85060      80000       4126       9169      61200]
+	[!] Reward:  0.0
+[+] Step: 36
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295       7300        340      64600       6460         20
+          2      90587      80000       4284       8568      68000]
+	[!] Reward:  0.0
+[+] Step: 37
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295       7900        340     106420       7094         30
+          2      92230      80000       4665       9953     102000]
+	[!] Reward:  0.0
+[+] Step: 38
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295       7750        340     109140       6821         32
+          2      91353      80000       3221       6241     108800]
+	[!] Reward:  0.0
+[+] Step: 39
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295       8350        340      96560       7427         26
+          2      85933      80000       3228       6954      88400]
+	[!] Reward:  0.0
+[+] Step: 40
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295       8350        340      89760       7480         24
+          2      84613      80000       3504       7008      81600]
+	[!] Reward:  0.0
+[+] Step: 41
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295       8950        340      97240       8103         24
+          2      84202      80000       3234       7008      81600]
+	[!] Reward:  0.0
+[+] Step: 42
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295       8950        340     138720       8160         34
+          2      85393      80000       4159       8318     115600]
+	[!] Reward:  0.0
+[+] Step: 43
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295       9550        340     158440       8802         36
+          2      84657      80000       2628       5548     122400]
+	[!] Reward:  0.0
+[+] Step: 44
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295       9550        340     167960       8840         38
+          2      85300      80000       2628       5256     129200]
+	[!] Reward:  0.0
+[+] Step: 45
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      10150        340     128180       9155         28
+          2      84257      80000       2900       6007      95200]
+	[!] Reward:  0.0
+[+] Step: 46
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      10750        340     137360       9811         28
+          2      85725      80000       2803       6007      95200]
+	[!] Reward:  0.0
+[+] Step: 47
+	[*] Exploiting gained knowledge. Selected action: 1
+	[#] Next state:  [4294967295      11350        340     189040      10502         36
+          2      90384      80000       3431       7243     122400]
+	[!] Reward:  0.0
+[+] Step: 48
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      11200        340     214540      10216         42
+          2      90412      80000       2435       4755     142800]
+	[!] Reward:  0.0
+[+] Step: 49
+	[*] Exploiting gained knowledge. Selected action: 1
+	[#] Next state:  [4294967295      11800        340     227800      10847         42
+          2      85487      80000       2269       4755     142800]
+	[!] Reward:  0.0
+[+] Step: 50
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      11800        340     228480      10880         42
+          2      85140      80000       2302       4605     142800]
+	[!] Reward:  0.0
+[+] Step: 51
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      11800        340     184960      10880         34
+          2      84168      80000       2473       4947     115600]
+	[!] Reward:  0.0
+[+] Step: 52
+	[*] Exploiting gained knowledge. Selected action: 1
+	[#] Next state:  [4294967295      12400        340     218960      11524         38
+          2      84112      80000       2983       6281     129200]
+	[!] Reward:  0.0
+[+] Step: 53
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      13000        340     280840      12210         46
+          2      85459      80000       2080       4341     156400]
+	[!] Reward:  0.0
+[+] Step: 54
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      13600        340     309400      12891         48
+          2      86258      80000       1997       4161     163200]
+	[!] Reward:  0.0
+[+] Step: 55
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      13450        340     314840      12593         50
+          2      85707      80000       2070       4057     170000]
+	[!] Reward:  0.0
+[+] Step: 56
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      14050        340     291040      13229         44
+          2      86416      80000       1999       4181     149600]
+	[!] Reward:  0.0
+[+] Step: 57
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      13900        340     284580      12935         44
+          2      87045      80000       2519       4923     149600]
+	[!] Reward:  0.0
+[+] Step: 58
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      13900        340     323000      12920         50
+          2      85119      80000       1997       3994     170000]
+	[!] Reward:  0.0
+[+] Step: 59
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      13900        340     323000      12920         50
+          2      84089      80000       1997       3994     170000]
+	[!] Reward:  0.0
+[+] Step: 60
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      14500        340     339320      13572         50
+          2      84218      80000       1950       4057     170000]
+	[!] Reward:  0.0
+[+] Step: 61
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      14500        340     340000      13600         50
+          2      84904      80000       1934       3868     170000]
+	[!] Reward:  0.0
+[+] Step: 62
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      14500        340     299200      13600         44
+          2      84119      80000       2318       4637     149600]
+	[!] Reward:  0.0
+[+] Step: 63
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      15100        340     356320      14252         50
+          2      84276      80000       1890       3931     170000]
+	[!] Reward:  0.0
+[+] Step: 64
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      15100        340     399840      14280         56
+          2      85689      80000       1839       3679     190400]
+	[!] Reward:  0.0
+[+] Step: 65
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      14950        340     362780      13953         52
+          2      84263      80000       1927       3780     176800]
+	[!] Reward:  0.0
+[+] Step: 66
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      14950        340     376380      13940         54
+          2      85977      80000       1878       3757     183600]
+	[!] Reward:  0.0
+[+] Step: 67
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      14950        340     306680      13940         44
+          2      86567      80000       2246       4493     149600]
+	[!] Reward:  0.0
+[+] Step: 68
+	[*] Exploiting gained knowledge. Selected action: 1
+	[#] Next state:  [4294967295      15550        340     379440      14593         52
+          2      86628      80000       1849       3840     176800]
+	[!] Reward:  0.0
+[+] Step: 69
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      15550        340     409360      14620         56
+          2      87789      80000       1811       3622     190400]
+	[!] Reward:  0.0
+[+] Step: 70
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      15400        340     394740      14620         54
+          2      86376      80000       1820       3640     183600]
+	[!] Reward:  0.0
+[+] Step: 71
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      16000        340     427720      15275         56
+          2      86274      80000       1748       3622     190400]
+	[!] Reward:  0.0
+[+] Step: 72
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      15850        340     359380      14974         48
+          2      86660      80000       2002       3922     163200]
+	[!] Reward:  0.0
+[+] Step: 73
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      15850        340     433840      14960         58
+          2      84774      80000       1830       3660     197200]
+	[!] Reward:  0.0
+[+] Step: 74
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      15850        340     418880      14960         56
+          2      84103      80000       1783       3566     190400]
+	[!] Reward:  0.0
+[+] Step: 75
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      15850        340     418880      14960         56
+          2      84096      80000       1783       3566     190400]
+	[!] Reward:  0.0
+[+] Step: 76
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      15700        340     418880      14960         56
+          2      84105      80000       1783       3566     190400]
+	[!] Reward:  0.0
+[+] Step: 77
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      15700        340     374000      14960         50
+          2      84082      80000       1977       3954     170000]
+	[!] Reward:  0.0
+[+] Step: 78
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      15700        340     403920      14960         54
+          2      84126      80000       1849       3698     183600]
+	[!] Reward:  0.0
+[+] Step: 79
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      15700        340     418880      14960         56
+          2      84136      80000       1783       3566     190400]
+	[!] Reward:  0.0
+[+] Step: 80
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      15550        340     409700      14632         56
+          2      84176      80000       1844       3622     190400]
+	[!] Reward:  0.0
+[+] Step: 81
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      15550        340     394740      14620         54
+          2      85874      80000       1820       3640     183600]
+	[!] Reward:  0.0
+[+] Step: 82
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      15400        340     365500      14620         50
+          2      86284      80000       2008       4017     170000]
+	[!] Reward:  0.0
+[+] Step: 83
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      15250        340     371620      14293         52
+          2      86322      80000       1958       3840     176800]
+	[!] Reward:  0.0
+[+] Step: 84
+	[*] Exploiting gained knowledge. Selected action: 2
+	[#] Next state:  [4294967295      15100        340     385560      14280         54
+          2      84648      80000       1849       3698     183600]
+	[!] Reward:  0.0
+[+] Step: 85
+	[*] Exploiting gained knowledge. Selected action: 2
+	[#] Next state:  [4294967295      14950        340     362780      13953         52
+          2      84174      80000       1958       3840     176800]
+	[!] Reward:  0.0
+[+] Step: 86
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      14800        340     376380      13940         54
+          2      85964      80000       1878       3757     183600]
+	[!] Reward:  0.0
+[+] Step: 87
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      15400        340     350200      14591         48
+          2      86421      80000       1945       4053     163200]
+	[!] Reward:  0.0
+[+] Step: 88
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      16000        340     412420      15274         54
+          2      86495      80000       1811       3757     183600]
+	[!] Reward:  0.0
+[+] Step: 89
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      15850        340     419220      14972         56
+          2      86502      80000       1815       3566     190400]
+	[!] Reward:  0.0
+[+] Step: 90
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      15700        340     418880      14960         56
+          2      84470      80000       1811       3622     190400]
+	[!] Reward:  0.0
+[+] Step: 91
+	[*] Exploiting gained knowledge. Selected action: 2
+	[#] Next state:  [4294967295      15550        340     395080      14632         54
+          2      84230      80000       1854       3640     183600]
+	[!] Reward:  0.0
+[+] Step: 92
+	[*] Exploiting gained knowledge. Selected action: 2
+	[#] Next state:  [4294967295      15400        340     365500      14620         50
+          2      85857      80000       1945       3891     170000]
+	[!] Reward:  0.0
+[+] Step: 93
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      15250        340     385900      14292         54
+          2      86289      80000       1943       3815     183600]
+	[!] Reward:  0.0
+[+] Step: 94
+	[*] Exploiting gained knowledge. Selected action: 2
+	[#] Next state:  [4294967295      15100        340     385560      14280         54
+          2      84520      80000       1878       3757     183600]
+	[!] Reward:  0.0
+[+] Step: 95
+	[*] Exploiting gained knowledge. Selected action: 2
+	[#] Next state:  [4294967295      14950        340     362780      13953         52
+          2      84135      80000       1958       3840     176800]
+	[!] Reward:  0.0
+[+] Step: 96
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      14800        340     362440      13940         52
+          2      85993      80000       1920       3840     176800]
+	[!] Reward:  0.0
+[+] Step: 97
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      15400        340     364820      14592         50
+          2      86500      80000       1931       4017     170000]
+	[!] Reward:  0.0
+[+] Step: 98
+	[*] Exploiting gained knowledge. Selected action: 2
+	[#] Next state:  [4294967295      15250        340     371620      14293         52
+          2      86344      80000       1927       3780     176800]
+	[!] Reward:  0.0
+[+] Step: 99
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      15850        340     403240      14934         54
+          2      84668      80000       1783       3698     183600]
+	[!] Reward:  0.0
+[+] Step: 100
+	[*] Exploiting gained knowledge. Selected action: 1
+	[#] Next state:  [4294967295      16450        340     437240      15615         56
+          2      84410      80000       1721       3566     190400]
+	[!] Reward:  0.0
+
+[O] Iteration over.
+[-] Final epsilon value:  0.6057704364907278
+[-] Final reward sum:  0.0
