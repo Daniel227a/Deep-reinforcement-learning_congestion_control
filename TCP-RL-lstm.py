@@ -2,6 +2,7 @@ import math
 from pyexpat import model
 import sys
 import argparse
+import random
 
 import numpy as np
 import matplotlib as mpl
@@ -98,6 +99,15 @@ def modeler(input_size, output_size):
     
 
 
+def retorna_com_probabilidade(probabilidade_true):
+    # Gere um número aleatório entre 0 e 1
+    numero_aleatorio = random.random()
+
+    # Verifique se o número aleatório é menor ou igual à probabilidade desejada
+    if numero_aleatorio <= probabilidade_true:
+        return True
+    else:
+        return False
 
 
 
@@ -233,9 +243,12 @@ for iteration in range(iterationNum):
 				target = (reward + discount_factor * np.amax(model.predict(next_state)[0]))
 			target_f = model.predict(state)
 			target_f[0][action_index] = target
+			resultado = retorna_com_probabilidade(0.10)
+			if resultado == True:
+                
+			    model.fit(target_f, target_f, epochs=1, verbose=0)
 			model.fit(state, target_f, epochs=1, verbose=0)
-
-			# Update state
+			    # Update state
 			state = next_state
 
 			if done:
