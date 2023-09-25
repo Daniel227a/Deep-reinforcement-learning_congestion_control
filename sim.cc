@@ -161,10 +161,13 @@ int main (int argc, char *argv[])
   if (transport_prot.compare ("ns3::TcpRlTimeBased") == 0)
   {
     openGymInterface = OpenGymInterface::Get(openGymPort);
-    Config::SetDefault ("ns3::TcpRlTimeBased::StepTime", TimeValue (Seconds(tcpEnvTimeStep))); // Time step of TCP env //define o intervalo de tempo entre etapas (steps) do ambiente.
+    Config::SetDefault ("ns3::TcpRlTimeBased::StepTime", TimeValue (Seconds(tcpEnvTimeStep)));
+    //TcpEventGymEnv::SetReward(1.0);
+    //Config::SetDefault ("ns3::TcpRlTimeBased::Reward", DoubleValue (2.0)); // Reward when increasing congestion window
+    //Config::SetDefault ("ns3::TcpRlTimeBased::Penalty", DoubleValue (-30.0));
+  // Calculate the ADU size // Time step of TCP env //define o intervalo de tempo entre etapas (steps) do ambiente.
   }
 
-  // Calculate the ADU size
   Header* temp_header = new Ipv4Header ();// Ipv4Header informações sobre o tamanho do cabeçalho IPv4.
   uint32_t ip_header = temp_header->GetSerializedSize ();
   NS_LOG_LOGIC ("IP Header size is: " << ip_header);
@@ -298,7 +301,8 @@ int main (int argc, char *argv[])
     {
         double packetsToSend = SinusoidalTraffic(currentTime - start_time, period, peakRate, minRate);
         uint32_t packetsToSendInt = static_cast<uint32_t>(packetsToSend);
-
+        
+        NS_LOG_UNCOND("--packetsToSend: " << packetsToSend);
         // Instale o aplicativo de envio para este período de tempo
         ApplicationContainer clientApp = ftp.Install (d.GetLeft (i));
         clientApp.Start (Seconds (currentTime));

@@ -409,14 +409,14 @@ NS_OBJECT_ENSURE_REGISTERED (TcpTimeStepGymEnv);
 TcpTimeStepGymEnv::TcpTimeStepGymEnv () : TcpGymEnv()
 {
   NS_LOG_FUNCTION (this);
-  m_envReward = 0.0;
+  m_envReward = 1.0;
 }
 
 TcpTimeStepGymEnv::TcpTimeStepGymEnv (Time timeStep) : TcpGymEnv()
 {
   NS_LOG_FUNCTION (this);
   m_timeStep = timeStep;
-  m_envReward = 0.0;
+  m_envReward = 1.0;
 }
 
 void

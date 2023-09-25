@@ -113,6 +113,8 @@ def retorna_com_probabilidade(probabilidade_true):
 
 
 ob_space,ac_space,env=initGyn()
+print("The observation space: {}".format(ob_space))
+print("The action space: {}".format(ac_space))
 get_agent.tcpAgents = {}
 get_agent.ob_space = ob_space
 get_agent.ac_space = ac_space
@@ -122,7 +124,7 @@ state_size = ob_space.shape[0] - 4 # ignoring 4 env attributes
 action_size = 3
 action_mapping = {} # dict faster than list
 action_mapping[0] = 0
-action_mapping[1] = 600 
+action_mapping[1] = 1500
 action_mapping[2] = -150
 
 #model = modeler(state_size, action_size)
@@ -145,7 +147,7 @@ cWnd_history = []
 pred_cWnd_history = []
 rtt_history = []
 tp_history = []
-
+loss=[]
 recency = maxSteps // 15
 
 
@@ -183,6 +185,7 @@ for iteration in range(iterationNum):
 			else:
 				# exploit gained knowledge
 				action_index = np.argmax(model.predict(state)[0])
+				loss.append(model.predict(state)[0])
 				print("\t[*] Exploiting gained knowledge. Selected action: {}".format(action_index), file=w_file)
 
 			# Calculate action
@@ -219,19 +222,26 @@ for iteration in range(iterationNum):
 
 			# Take action step on environment and get feedback
 			next_state, reward, done, _ = env.step(actions)
-            
-			rewardsum += reward
+			#print(type(reward))
+			#rewardsum += reward
             
 			next_state = next_state[4:]
 			cWnd = next_state[1]
 			rtt = next_state[7]
 			throughput = next_state[11]
-			print(reward)
+			
+			#if new_ssThresh<cWnd:
+				#reward=1.0
+			rewardsum +=  reward
+
+			#print(reward)
 			print("\t[#] Next state: ", next_state, file=w_file)
 			print("\t[!] Reward: ", reward, file=w_file)
 			print("\t[#] cWnd: ", cWnd, file=w_file)
 			print("\t[!] rtt: ", rtt, file=w_file)
-      
+			print("\t[!] ssThresh: ", state[0][0], file=w_file)
+			
+
             
 			next_state = np.reshape(next_state, [1, state_size])
 			
@@ -239,14 +249,15 @@ for iteration in range(iterationNum):
 			# Train incrementally
 			# DQN - function approximation using neural networks
 			target = reward
+			resultado = retorna_com_probabilidade(0.30)
+			if resultado == True:
+				discount_factor=+0.10
 			if not done:
 				target = (reward + discount_factor * np.amax(model.predict(next_state)[0]))
 			target_f = model.predict(state)
 			target_f[0][action_index] = target
-			resultado = retorna_com_probabilidade(0.10)
-			if resultado == True:
-                
-			    model.fit(target_f, target_f, epochs=1, verbose=0)
+			
+			
 			model.fit(state, target_f, epochs=1, verbose=0)
 			    # Update state
 			state = next_state
@@ -280,7 +291,7 @@ for iteration in range(iterationNum):
 
 mpl.rcdefaults()
 mpl.rcParams.update({'font.size': 16})
-fig, ax = plt.subplots(2, 2, figsize=(4,2))
+fig, ax = plt.subplots(3, 2, figsize=(4,2))
 plt.tight_layout(pad=0.3)
 
 ax[0, 0].plot(range(len(cWnd_history)), cWnd_history, marker="", linestyle="-")
@@ -298,10 +309,15 @@ ax[1, 0].set_title('RTT over time')
 ax[1, 0].set_xlabel('Steps')
 ax[1, 0].set_ylabel('RTT (microseconds)')
 
-#ax[1, 1].plot(range(len(rew_history)), rew_history, marker="", linestyle="-")
-#ax[1, 1].set_title('Reward sum plot')
-#ax[1, 1].set_xlabel('Steps')
-#ax[1, 1].set_ylabel('Accumulated reward')
+ax[1, 1].plot(range(len(rew_history)), rew_history, marker="", linestyle="-")
+ax[1, 1].set_title('Reward sum plot')
+ax[1, 1].set_xlabel('Steps')
+ax[1, 1].set_ylabel('Accumulated reward')
+
+ax[1, 1].plot(range(len(loss)), loss, marker="", linestyle="-")
+ax[1, 1].set_title('loss')
+ax[1, 1].set_xlabel('Steps')
+ax[1, 1].set_ylabel('Accumulated reward')
 env.close()
 plt.savefig('plots.png')
 plt.show()
