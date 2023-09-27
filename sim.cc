@@ -86,11 +86,11 @@ PrintRxCount()//mostra pacotes recebidos
 int main (int argc, char *argv[])
 {
   uint32_t openGymPort = 5555;//porta
-  double tcpEnvTimeStep = 0.1;//delta t 
+  double tcpEnvTimeStep = 0.1;//delta t 0
 
   uint32_t nLeaf = 1;//topologia contem uma folha de cada lado ==ponto a ponto 
   std::string transport_prot = "TcpRl";//nome do protocolo 
-  double error_p = 0.2;//taxa de erro de pacotes 
+  double error_p =0 ;//taxa de erro de pacotes 
   std::string bottleneck_bandwidth = "2Mbps";//largura de banda entre roteadores
   std::string bottleneck_delay = "0.01ms";//atraso  
   std::string access_bandwidth = "10Mbps";//largura de banda host

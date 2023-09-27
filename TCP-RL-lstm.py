@@ -13,6 +13,8 @@ import tensorflow as tf
 from ns3gym import ns3env
 
 from tcp_base import TcpTimeBased, TcpEventBased
+#import pandas as pd # corr = correlacao  throughput  Selected action: 1  
+
 
 try:
 	w_file = open('run.log', 'w')
@@ -148,6 +150,7 @@ pred_cWnd_history = []
 rtt_history = []
 tp_history = []
 loss=[]
+throughput_list=[]
 recency = maxSteps // 15
 
 
@@ -182,10 +185,12 @@ for iteration in range(iterationNum):
 				# explore new situation
 				action_index = np.random.randint(0, action_size)
 				print("\t[*] Random exploration. Selected action: {}".format(action_index), file=w_file)
+				loss.append(action_index)
 			else:
 				# exploit gained knowledge
 				action_index = np.argmax(model.predict(state)[0])
-				loss.append(model.predict(state)[0])
+				loss.append(action_index)
+				
 				print("\t[*] Exploiting gained knowledge. Selected action: {}".format(action_index), file=w_file)
 
 			# Calculate action
@@ -229,7 +234,7 @@ for iteration in range(iterationNum):
 			cWnd = next_state[1]
 			rtt = next_state[7]
 			throughput = next_state[11]
-			
+			throughput_list.append(round(throughput,2))
 			#if new_ssThresh<cWnd:
 				#reward=1.0
 			rewardsum +=  reward
@@ -240,7 +245,10 @@ for iteration in range(iterationNum):
 			print("\t[#] cWnd: ", cWnd, file=w_file)
 			print("\t[!] rtt: ", rtt, file=w_file)
 			print("\t[!] ssThresh: ", state[0][0], file=w_file)
-			
+			print("\t[!] throughput: ", next_state[11], file=w_file)
+			#print("\t[!] throughput: ", next_state[11], file=w_file)
+			matriz_corela=np.correlate(throughput_list,loss,mode='valid')
+			print(matriz_corela)
 
             
 			next_state = np.reshape(next_state, [1, state_size])
@@ -288,11 +296,30 @@ for iteration in range(iterationNum):
 			break
 		# if str(input("[?] Continue to next iteration? [Y/n]: ") or "Y").lower() != "y":
 		# 	break
+matriz_corela=np.correlate(throughput_list,loss,mode='full')
+matriz_corela = matriz_corela.reshape(1, -1)
+print(matriz_corela)
+plt.figure(figsize=(8, 6))
+plt.imshow(matriz_corela ,cmap='coolwarm', origin='lower', aspect='auto')
+plt.colorbar(label='Correlation Coefficient')
+plt.title('Matrix de Correlação')
+plt.xlabel('Índice da lista de throughput')
+plt.ylabel('Índice da lista de loss')
+plt.show()
+
+
 
 mpl.rcdefaults()
 mpl.rcParams.update({'font.size': 16})
 fig, ax = plt.subplots(3, 2, figsize=(4,2))
 plt.tight_layout(pad=0.3)
+
+
+
+
+
+
+
 
 ax[0, 0].plot(range(len(cWnd_history)), cWnd_history, marker="", linestyle="-")
 ax[0, 0].set_title('Congestion windows')
@@ -321,4 +348,5 @@ ax[1, 1].set_ylabel('Accumulated reward')
 env.close()
 plt.savefig('plots.png')
 plt.show()
+
 

@@ -1,819 +1,921 @@
 [+] Step: 1
-	[*] Random exploration. Selected action: 2
+	[*] Random exploration. Selected action: 1
 	[#] Next state:  [4294967295      14400       1440          0          0          0
           0          0      80000          0          0          0]
 	[!] Reward:  1.0
 	[#] cWnd:  14400
 	[!] rtt:  0
 	[!] ssThresh:  4294967295
+	[!] throughput:  0
 [+] Step: 2
-	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      15900       1440      64800      12960         10
-          2      93636      80000      14785      17737     144000]
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      14400       1440      57600      11520         10
+          2      93636      80000      16129      17737     144000]
 	[!] Reward:  1.0
-	[#] cWnd:  15900
+	[#] cWnd:  14400
 	[!] rtt:  93636
 	[!] ssThresh:  4294967295
+	[!] throughput:  144000
 [+] Step: 3
 	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      17400       1440      84960      14160         12
-          2     106157      80000       7741      16773     172800]
+	[#] Next state:  [4294967295      15900       1440      63360      12672         10
+          2     103419      80000       8605      18932     144000]
 	[!] Reward:  1.0
-	[#] cWnd:  17400
-	[!] rtt:  106157
+	[#] cWnd:  15900
+	[!] rtt:  103419
 	[!] ssThresh:  4294967295
+	[!] throughput:  144000
 [+] Step: 4
-	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      17400       1440     100800      14400         14
-          2     103770      80000       7615      15230     201600]
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      15750       1440      70560      11760         12
+          2     102819      80000       9692      17769     172800]
 	[!] Reward:  1.0
-	[#] cWnd:  17400
-	[!] rtt:  103770
+	[#] cWnd:  15750
+	[!] rtt:  102819
 	[!] ssThresh:  4294967295
+	[!] throughput:  172800
 [+] Step: 5
-	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      18900       1440      93600      15600         12
-          2      98982      80000       7281      15777     172800]
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      15750       1440      57600      11520         10
+          2     102469      80000       9466      18932     144000]
 	[!] Reward:  1.0
-	[#] cWnd:  18900
-	[!] rtt:  98982
+	[#] cWnd:  15750
+	[!] rtt:  102469
 	[!] ssThresh:  4294967295
+	[!] throughput:  144000
 [+] Step: 6
-	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      18900       1440     110880      15840         14
-          2     100380      80000       7188      14377     201600]
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      17250       1440      76320      12720         12
+          2      98277      80000       8660      18765     172800]
 	[!] Reward:  1.0
-	[#] cWnd:  18900
-	[!] rtt:  100380
+	[#] cWnd:  17250
+	[!] rtt:  98277
 	[!] ssThresh:  4294967295
+	[!] throughput:  172800
 [+] Step: 7
-	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      18900       1440     110880      15840         14
-          2     102511      80000       7188      14377     201600]
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      17100       1440      77760      12960         12
+          2     101678      80000       8386      16773     172800]
 	[!] Reward:  1.0
-	[#] cWnd:  18900
-	[!] rtt:  102511
+	[#] cWnd:  17100
+	[!] rtt:  101678
 	[!] ssThresh:  4294967295
+	[!] throughput:  172800
 [+] Step: 8
-	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      18900       1440     110880      15840         14
-          2     103172      80000       7188      14377     201600]
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      16950       1440      77760      12960         12
+          2     104497      80000       8386      16773     172800]
 	[!] Reward:  1.0
-	[#] cWnd:  18900
-	[!] rtt:  103172
+	[#] cWnd:  16950
+	[!] rtt:  104497
 	[!] ssThresh:  4294967295
+	[!] throughput:  172800
 [+] Step: 9
-	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      18900       1440      95040      15840         12
-          2     103144      80000       7390      14781     172800]
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      16800       1440      64800      12960         10
+          2     105361      80000       8868      17737     144000]
 	[!] Reward:  1.0
-	[#] cWnd:  18900
-	[!] rtt:  103144
+	[#] cWnd:  16800
+	[!] rtt:  105361
 	[!] ssThresh:  4294967295
+	[!] throughput:  144000
 [+] Step: 10
 	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      20400       1440     119520      17074         14
-          2     103570      80000       7841      16802     201600]
+	[#] Next state:  [4294967295      18300       1440      70560      14112         10
+          2     105965      80000       8062      17737     144000]
 	[!] Reward:  1.0
-	[#] cWnd:  20400
-	[!] rtt:  103570
+	[#] cWnd:  18300
+	[!] rtt:  105965
 	[!] ssThresh:  4294967295
+	[!] throughput:  144000
 [+] Step: 11
-	[*] Random exploration. Selected action: 2
-	[#] Next state:  [4294967295      20250       1440     120960      17280         14
-          2     103022      80000       6761      13523     201600]
-	[!] Reward:  1.0
-	[#] cWnd:  20250
-	[!] rtt:  103022
-	[!] ssThresh:  4294967295
-[+] Step: 12
 	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      20250       1440     120960      17280         14
-          2      98561      80000       6761      13523     201600]
+	[#] Next state:  [4294967295      18300       1440     100800      14400         14
+          2     103574      80000       8828      17656     201600]
 	[!] Reward:  1.0
-	[#] cWnd:  20250
-	[!] rtt:  98561
+	[#] cWnd:  18300
+	[!] rtt:  103574
 	[!] ssThresh:  4294967295
+	[!] throughput:  201600
+[+] Step: 12
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      18150       1440      86400      14400         12
+          2      98190      80000       7888      15777     172800]
+	[!] Reward:  1.0
+	[#] cWnd:  18150
+	[!] rtt:  98190
+	[!] ssThresh:  4294967295
+	[!] throughput:  172800
 [+] Step: 13
 	[*] Random exploration. Selected action: 2
-	[#] Next state:  [4294967295      20100       1440     112320      16045         14
-          2      96305      80000       7281      13523     201600]
+	[#] Next state:  [4294967295      18000       1440      86400      14400         12
+          2      96361      80000       7888      15777     172800]
 	[!] Reward:  1.0
-	[#] cWnd:  20100
-	[!] rtt:  96305
+	[#] cWnd:  18000
+	[!] rtt:  96361
 	[!] ssThresh:  4294967295
+	[!] throughput:  172800
 [+] Step: 14
 	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      20100       1440     110880      15840         14
-          2      98245      80000       7615      15230     201600]
+	[#] Next state:  [4294967295      18000       1440     100800      14400         14
+          2      95419      80000       7615      15230     201600]
 	[!] Reward:  1.0
-	[#] cWnd:  20100
-	[!] rtt:  98245
+	[#] cWnd:  18000
+	[!] rtt:  95419
 	[!] ssThresh:  4294967295
+	[!] throughput:  201600
 [+] Step: 15
-	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      20100       1440     110880      15840         14
-          2     101181      80000       7188      14377     201600]
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      19500       1440      93600      15600         12
+          2      94800      80000       7281      15777     172800]
 	[!] Reward:  1.0
-	[#] cWnd:  20100
-	[!] rtt:  101181
+	[#] cWnd:  19500
+	[!] rtt:  94800
 	[!] ssThresh:  4294967295
+	[!] throughput:  172800
 [+] Step: 16
 	[*] Random exploration. Selected action: 2
-	[#] Next state:  [4294967295      19950       1440     110880      15840         14
-          2     102706      80000       7188      14377     201600]
+	[#] Next state:  [4294967295      19350       1440     110880      15840         14
+          2      98015      80000       7188      14377     201600]
 	[!] Reward:  1.0
-	[#] cWnd:  19950
-	[!] rtt:  102706
+	[#] cWnd:  19350
+	[!] rtt:  98015
 	[!] ssThresh:  4294967295
+	[!] throughput:  201600
 [+] Step: 17
-	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      19950       1440     110880      15840         14
-          2     103104      80000       7188      14377     201600]
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      19200       1440     110880      15840         14
+          2     101327      80000       7188      14377     201600]
 	[!] Reward:  1.0
-	[#] cWnd:  19950
-	[!] rtt:  103104
+	[#] cWnd:  19200
+	[!] rtt:  101327
 	[!] ssThresh:  4294967295
+	[!] throughput:  201600
 [+] Step: 18
-	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      19950       1440     110880      15840         14
-          2     103092      80000       7188      14377     201600]
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      20700       1440     119520      17074         14
+          2     102409      80000       6709      14377     201600]
 	[!] Reward:  1.0
-	[#] cWnd:  19950
-	[!] rtt:  103092
+	[#] cWnd:  20700
+	[!] rtt:  102409
 	[!] ssThresh:  4294967295
+	[!] throughput:  201600
 [+] Step: 19
 	[*] Random exploration. Selected action: 2
-	[#] Next state:  [4294967295      19800       1440      95040      15840         12
-          2     103561      80000       7390      14781     172800]
+	[#] Next state:  [4294967295      20550       1440     138240      17280         16
+          2     100185      80000       6663      13327     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  19800
-	[!] rtt:  103561
+	[#] cWnd:  20550
+	[!] rtt:  100185
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
 [+] Step: 20
-	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      21300       1440     119520      17074         14
-          2     103463      80000       7442      15948     201600]
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      20400       1440     120960      17280         14
+          2      96530      80000       6761      13523     201600]
 	[!] Reward:  1.0
-	[#] cWnd:  21300
-	[!] rtt:  103463
+	[#] cWnd:  20400
+	[!] rtt:  96530
 	[!] ssThresh:  4294967295
+	[!] throughput:  201600
 [+] Step: 21
 	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      21300       1440     138240      17280         16
-          2     100330      80000       6663      13327     230400]
+	[#] Next state:  [4294967295      20400       1440     138240      17280         16
+          2      95365      80000       6663      13327     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  21300
-	[!] rtt:  100330
+	[#] cWnd:  20400
+	[!] rtt:  95365
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
 [+] Step: 22
-	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      21300       1440     120960      17280         14
-          2      96936      80000       6761      13523     201600]
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      20250       1440     120960      17280         14
+          2      95114      80000       6761      13523     201600]
 	[!] Reward:  1.0
-	[#] cWnd:  21300
-	[!] rtt:  96936
+	[#] cWnd:  20250
+	[!] rtt:  95114
 	[!] ssThresh:  4294967295
+	[!] throughput:  201600
 [+] Step: 23
-	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      22800       1440     129600      18514         14
-          2      95367      80000       6310      13523     201600]
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      20100       1440     112320      16045         14
+          2      94601      80000       7281      13523     201600]
 	[!] Reward:  1.0
-	[#] cWnd:  22800
-	[!] rtt:  95367
+	[#] cWnd:  20100
+	[!] rtt:  94601
 	[!] ssThresh:  4294967295
+	[!] throughput:  201600
 [+] Step: 24
-	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      24300       1440     159840      19980         16
-          2      98993      80000       5920      12580     230400]
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      20100       1440      95040      15840         12
+          2      96821      80000       7390      14781     172800]
 	[!] Reward:  1.0
-	[#] cWnd:  24300
-	[!] rtt:  98993
+	[#] cWnd:  20100
+	[!] rtt:  96821
 	[!] ssThresh:  4294967295
+	[!] throughput:  172800
 [+] Step: 25
 	[*] Random exploration. Selected action: 2
-	[#] Next state:  [4294967295      24150       1440     181440      20160         18
-          2     100484      80000       5976      11952     259200]
+	[#] Next state:  [4294967295      19950       1440     110880      15840         14
+          2     100989      80000       8401      16802     201600]
 	[!] Reward:  1.0
-	[#] cWnd:  24150
-	[!] rtt:  100484
+	[#] cWnd:  19950
+	[!] rtt:  100989
 	[!] ssThresh:  4294967295
+	[!] throughput:  201600
 [+] Step: 26
 	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      24150       1440     161280      20160         16
-          2      97209      80000       5976      11952     230400]
+	[#] Next state:  [4294967295      19950       1440     110880      15840         14
+          2     102292      80000       7188      14377     201600]
 	[!] Reward:  1.0
-	[#] cWnd:  24150
-	[!] rtt:  97209
+	[#] cWnd:  19950
+	[!] rtt:  102292
 	[!] ssThresh:  4294967295
+	[!] throughput:  201600
 [+] Step: 27
-	[*] Random exploration. Selected action: 2
-	[#] Next state:  [4294967295      24000       1440     181440      20160         18
-          2      96326      80000       5976      11952     259200]
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      21450       1440     119520      17074         14
+          2     103069      80000       6709      14377     201600]
 	[!] Reward:  1.0
-	[#] cWnd:  24000
-	[!] rtt:  96326
+	[#] cWnd:  21450
+	[!] rtt:  103069
 	[!] ssThresh:  4294967295
+	[!] throughput:  201600
 [+] Step: 28
 	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      24000       1440     161280      20160         16
-          2      95760      80000       5976      11952     230400]
+	[#] Next state:  [4294967295      21450       1440     120960      17280         14
+          2     101796      80000       6761      13523     201600]
 	[!] Reward:  1.0
-	[#] cWnd:  24000
-	[!] rtt:  95760
+	[#] cWnd:  21450
+	[!] rtt:  101796
 	[!] ssThresh:  4294967295
+	[!] throughput:  201600
 [+] Step: 29
-	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      24000       1440     161280      20160         16
-          2      95604      80000       5976      11952     230400]
-	[!] Reward:  1.0
-	[#] cWnd:  24000
-	[!] rtt:  95604
-	[!] ssThresh:  4294967295
-[+] Step: 30
-	[*] Random exploration. Selected action: 2
-	[#] Next state:  [4294967295      23850       1440     181440      20160         18
-          2      95794      80000       5976      11952     259200]
-	[!] Reward:  1.0
-	[#] cWnd:  23850
-	[!] rtt:  95794
-	[!] ssThresh:  4294967295
-[+] Step: 31
-	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      23850       1440     161280      20160         16
-          2      95430      80000       5976      11952     230400]
-	[!] Reward:  1.0
-	[#] cWnd:  23850
-	[!] rtt:  95430
-	[!] ssThresh:  4294967295
-[+] Step: 32
 	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      25350       1440     171360      21420         16
-          2      95733      80000       5624      11952     230400]
+	[#] Next state:  [4294967295      22950       1440     148320      18540         16
+          2      97383      80000       6271      13327     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  25350
-	[!] rtt:  95733
+	[#] cWnd:  22950
+	[!] rtt:  97383
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 30
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      22950       1440     149760      18720         16
+          2     100363      80000       6290      12580     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  22950
+	[!] rtt:  100363
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 31
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      22950       1440     149760      18720         16
+          2     101275      80000       6290      12580     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  22950
+	[!] rtt:  101275
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 32
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      22950       1440     131040      18720         14
+          2     101104      80000       6334      12669     201600]
+	[!] Reward:  1.0
+	[#] cWnd:  22950
+	[!] rtt:  101104
+	[!] ssThresh:  4294967295
+	[!] throughput:  201600
 [+] Step: 33
 	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      26850       1440     205920      22880         18
-          2     100148      80000       5661      11952     259200]
+	[#] Next state:  [4294967295      24450       1440     159840      19980         16
+          2     101432      80000       5920      12580     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  26850
-	[!] rtt:  100148
+	[#] cWnd:  24450
+	[!] rtt:  101432
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
 [+] Step: 34
 	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      28350       1440     194400      24300         16
-          2     105097      80000       5624      11952     230400]
+	[#] Next state:  [4294967295      25950       1440     204480      22720         18
+          2      98972      80000       5378      11952     259200]
 	[!] Reward:  1.0
-	[#] cWnd:  28350
-	[!] rtt:  105097
+	[#] cWnd:  25950
+	[!] rtt:  98972
 	[!] ssThresh:  4294967295
+	[!] throughput:  259200
 [+] Step: 35
-	[*] Random exploration. Selected action: 2
-	[#] Next state:  [4294967295      28200       1440     195840      24480         16
-          2     110163      80000       5976      11952     230400]
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      25950       1440     184320      23040         16
+          2     101641      80000       5976      11952     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  28200
-	[!] rtt:  110163
+	[#] cWnd:  25950
+	[!] rtt:  101641
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
 [+] Step: 36
 	[*] Random exploration. Selected action: 2
-	[#] Next state:  [4294967295      28050       1440     220320      24480         18
-          2     116174      80000       5976      11952     259200]
+	[#] Next state:  [4294967295      25800       1440     195840      21760         18
+          2     105848      80000       6327      11952     259200]
 	[!] Reward:  1.0
-	[#] cWnd:  28050
-	[!] rtt:  116174
+	[#] cWnd:  25800
+	[!] rtt:  105848
 	[!] ssThresh:  4294967295
+	[!] throughput:  259200
 [+] Step: 37
-	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      29550       1440     205920      25740         16
-          2     118596      80000       5624      11952     230400]
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      25800       1440     172800      21600         16
+          2     106770      80000       5976      11952     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  29550
-	[!] rtt:  118596
+	[#] cWnd:  25800
+	[!] rtt:  106770
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
 [+] Step: 38
 	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      31050       1440     244800      27200         18
-          2     119237      80000       5661      11952     259200]
+	[#] Next state:  [4294967295      27300       1440     182880      22860         16
+          2     107466      80000       5624      11952     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  31050
-	[!] rtt:  119237
+	[#] cWnd:  27300
+	[!] rtt:  107466
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
 [+] Step: 39
-	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      31050       1440     218880      27360         16
-          2     122430      80000       5976      11952     230400]
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      28800       1440     230400      25600         18
+          2     107520      80000       5378      11952     259200]
 	[!] Reward:  1.0
-	[#] cWnd:  31050
-	[!] rtt:  122430
+	[#] cWnd:  28800
+	[!] rtt:  107520
 	[!] ssThresh:  4294967295
+	[!] throughput:  259200
 [+] Step: 40
-	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      32550       1440     228960      28620         16
-          2     128511      80000       5624      11952     230400]
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      28800       1440     207360      25920         16
+          2     111492      80000       5976      11952     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  32550
-	[!] rtt:  128511
+	[#] cWnd:  28800
+	[!] rtt:  111492
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
 [+] Step: 41
-	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      32550       1440     259200      28800         18
-          2     130271      80000       5976      11952     259200]
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      28800       1440     207360      25920         16
+          2     117012      80000       5976      11952     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  32550
-	[!] rtt:  130271
+	[#] cWnd:  28800
+	[!] rtt:  117012
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
 [+] Step: 42
-	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      32550       1440     230400      28800         16
-          2     131261      80000       5976      11952     230400]
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      30300       1440     244800      27200         18
+          2     118472      80000       5661      11952     259200]
 	[!] Reward:  1.0
-	[#] cWnd:  32550
-	[!] rtt:  131261
+	[#] cWnd:  30300
+	[!] rtt:  118472
 	[!] ssThresh:  4294967295
+	[!] throughput:  259200
 [+] Step: 43
-	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      32550       1440     230400      28800         16
-          2     131402      80000       5976      11952     230400]
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      30150       1440     208800      26100         16
+          2     122538      80000       6374      11952     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  32550
-	[!] rtt:  131402
+	[#] cWnd:  30150
+	[!] rtt:  122538
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
 [+] Step: 44
-	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      34050       1440     270720      30080         18
-          2     131307      80000       5661      11952     259200]
-	[!] Reward:  1.0
-	[#] cWnd:  34050
-	[!] rtt:  131307
-	[!] ssThresh:  4294967295
-[+] Step: 45
 	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      34050       1440     241920      30240         16
-          2     134046      80000       5976      11952     230400]
+	[#] Next state:  [4294967295      30150       1440     207360      25920         16
+          2     125945      80000       5976      11952     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  34050
-	[!] rtt:  134046
+	[#] cWnd:  30150
+	[!] rtt:  125945
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 45
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      31650       1440     244800      27200         18
+          2     121717      80000       5661      11952     259200]
+	[!] Reward:  1.0
+	[#] cWnd:  31650
+	[!] rtt:  121717
+	[!] ssThresh:  4294967295
+	[!] throughput:  259200
 [+] Step: 46
-	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      34050       1440     241920      30240         16
-          2     139762      80000       5976      11952     230400]
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      31650       1440     218880      27360         16
+          2     123655      80000       5976      11952     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  34050
-	[!] rtt:  139762
+	[#] cWnd:  31650
+	[!] rtt:  123655
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
 [+] Step: 47
-	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      35550       1440     283680      31520         18
-          2     142324      80000       5661      11952     259200]
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      31650       1440     246240      27360         18
+          2     128621      80000       5976      11952     259200]
 	[!] Reward:  1.0
-	[#] cWnd:  35550
-	[!] rtt:  142324
+	[#] cWnd:  31650
+	[!] rtt:  128621
 	[!] ssThresh:  4294967295
+	[!] throughput:  259200
 [+] Step: 48
-	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      37050       1440     263520      32940         16
-          2     143124      80000       5624      11952     230400]
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      31650       1440     218880      27360         16
+          2     130737      80000       5976      11952     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  37050
-	[!] rtt:  143124
+	[#] cWnd:  31650
+	[!] rtt:  130737
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
 [+] Step: 49
 	[*] Random exploration. Selected action: 2
-	[#] Next state:  [4294967295      36900       1440     298080      33120         18
-          2     144588      80000       5976      11952     259200]
+	[#] Next state:  [4294967295      31500       1440     218880      27360         16
+          2     131222      80000       5976      11952     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  36900
-	[!] rtt:  144588
+	[#] cWnd:  31500
+	[!] rtt:  131222
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
 [+] Step: 50
-	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      36900       1440     264960      33120         16
-          2     151501      80000       5976      11952     230400]
-	[!] Reward:  1.0
-	[#] cWnd:  36900
-	[!] rtt:  151501
-	[!] ssThresh:  4294967295
-[+] Step: 51
 	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      38400       1440     275040      34380         16
-          2     153868      80000       5624      11952     230400]
+	[#] Next state:  [4294967295      33000       1440     257760      28640         18
+          2     131249      80000       5661      11952     259200]
 	[!] Reward:  1.0
-	[#] cWnd:  38400
-	[!] rtt:  153868
+	[#] cWnd:  33000
+	[!] rtt:  131249
 	[!] ssThresh:  4294967295
+	[!] throughput:  259200
+[+] Step: 51
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      32850       1440     230400      28800         16
+          2     131642      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  32850
+	[!] rtt:  131642
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
 [+] Step: 52
-	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      38400       1440     311040      34560         18
-          2     154937      80000       5976      11952     259200]
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      32700       1440     230400      28800         16
+          2     131291      80000       5976      11952     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  38400
-	[!] rtt:  154937
+	[#] cWnd:  32700
+	[!] rtt:  131291
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
 [+] Step: 53
-	[*] Random exploration. Selected action: 2
-	[#] Next state:  [4294967295      38250       1440     276480      34560         16
-          2     155313      80000       5976      11952     230400]
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      34200       1440     270720      30080         18
+          2     131550      80000       5661      11952     259200]
 	[!] Reward:  1.0
-	[#] cWnd:  38250
-	[!] rtt:  155313
+	[#] cWnd:  34200
+	[!] rtt:  131550
 	[!] ssThresh:  4294967295
+	[!] throughput:  259200
 [+] Step: 54
-	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      38250       1440     276480      34560         16
-          2     155152      80000       5976      11952     230400]
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      35700       1440     252000      31500         16
+          2     133899      80000       5624      11952     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  38250
-	[!] rtt:  155152
+	[#] cWnd:  35700
+	[!] rtt:  133899
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
 [+] Step: 55
-	[*] Random exploration. Selected action: 2
-	[#] Next state:  [4294967295      38100       1440     311040      34560         18
-          2     155496      80000       5976      11952     259200]
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      37200       1440     296640      32960         18
+          2     139941      80000       5661      11952     259200]
 	[!] Reward:  1.0
-	[#] cWnd:  38100
-	[!] rtt:  155496
+	[#] cWnd:  37200
+	[!] rtt:  139941
 	[!] ssThresh:  4294967295
+	[!] throughput:  259200
 [+] Step: 56
-	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      38100       1440     276480      34560         16
-          2     155215      80000       5976      11952     230400]
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      37200       1440     264960      33120         16
+          2     144222      80000       5976      11952     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  38100
-	[!] rtt:  155215
+	[#] cWnd:  37200
+	[!] rtt:  144222
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
 [+] Step: 57
-	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      38100       1440     311040      34560         18
-          2     155448      80000       5976      11952     259200]
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      38700       1440     275040      34380         16
+          2     150882      80000       5624      11952     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  38100
-	[!] rtt:  155448
+	[#] cWnd:  38700
+	[!] rtt:  150882
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
 [+] Step: 58
-	[*] Random exploration. Selected action: 2
-	[#] Next state:  [4294967295      37950       1440     276480      34560         16
-          2     155399      80000       5976      11952     230400]
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      38700       1440     311040      34560         18
+          2     153965      80000       5976      11952     259200]
 	[!] Reward:  1.0
-	[#] cWnd:  37950
-	[!] rtt:  155399
+	[#] cWnd:  38700
+	[!] rtt:  153965
 	[!] ssThresh:  4294967295
+	[!] throughput:  259200
 [+] Step: 59
-	[*] Random exploration. Selected action: 2
-	[#] Next state:  [4294967295      37800       1440     276480      34560         16
-          2     155223      80000       5976      11952     230400]
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      40200       1440     286560      35820         16
+          2     154923      80000       5624      11952     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  37800
-	[!] rtt:  155223
+	[#] cWnd:  40200
+	[!] rtt:  154923
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
 [+] Step: 60
-	[*] Random exploration. Selected action: 2
-	[#] Next state:  [4294967295      37650       1440     311040      34560         18
-          2     155557      80000       5976      11952     259200]
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      41700       1440     298080      37260         16
+          2     155598      80000       5624      11952     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  37650
-	[!] rtt:  155557
+	[#] cWnd:  41700
+	[!] rtt:  155598
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
 [+] Step: 61
 	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      39150       1440     286560      35820         16
-          2     155235      80000       5624      11952     230400]
+	[#] Next state:  [4294967295      43200       1440     360000      40000         18
+          2     162507      80000       5378      11952     259200]
 	[!] Reward:  1.0
-	[#] cWnd:  39150
-	[!] rtt:  155235
+	[#] cWnd:  43200
+	[!] rtt:  162507
 	[!] ssThresh:  4294967295
+	[!] throughput:  259200
 [+] Step: 62
-	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      40650       1440     298080      37260         16
-          2     155963      80000       5624      11952     230400]
-	[!] Reward:  1.0
-	[#] cWnd:  40650
-	[!] rtt:  155963
-	[!] ssThresh:  4294967295
-[+] Step: 63
-	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      40650       1440     336960      37440         18
-          2     162436      80000       5976      11952     259200]
-	[!] Reward:  1.0
-	[#] cWnd:  40650
-	[!] rtt:  162436
-	[!] ssThresh:  4294967295
-[+] Step: 64
-	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      40650       1440     299520      37440         16
-          2     165596      80000       5976      11952     230400]
-	[!] Reward:  1.0
-	[#] cWnd:  40650
-	[!] rtt:  165596
-	[!] ssThresh:  4294967295
-[+] Step: 65
-	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      40650       1440     299520      37440         16
-          2     166976      80000       5976      11952     230400]
-	[!] Reward:  1.0
-	[#] cWnd:  40650
-	[!] rtt:  166976
-	[!] ssThresh:  4294967295
-[+] Step: 66
-	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      42150       1440     348480      38720         18
-          2     167059      80000       5661      11952     259200]
-	[!] Reward:  1.0
-	[#] cWnd:  42150
-	[!] rtt:  167059
-	[!] ssThresh:  4294967295
-[+] Step: 67
 	[*] Random exploration. Selected action: 2
-	[#] Next state:  [4294967295      42000       1440     311040      38880         16
-          2     167825      80000       5976      11952     230400]
+	[#] Next state:  [4294967295      43050       1440     312480      39060         16
+          2     166170      80000       6374      11952     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  42000
-	[!] rtt:  167825
+	[#] cWnd:  43050
+	[!] rtt:  166170
 	[!] ssThresh:  4294967295
-[+] Step: 68
-	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      42000       1440     349920      38880         18
-          2     174386      80000       5976      11952     259200]
+	[!] throughput:  230400
+[+] Step: 63
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      44550       1440     321120      40140         16
+          2     173451      80000       5624      11952     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  42000
-	[!] rtt:  174386
+	[#] cWnd:  44550
+	[!] rtt:  173451
 	[!] ssThresh:  4294967295
-[+] Step: 69
+	[!] throughput:  230400
+[+] Step: 64
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      44400       1440     362880      40320         18
+          2     177472      80000       5976      11952     259200]
+	[!] Reward:  1.0
+	[#] cWnd:  44400
+	[!] rtt:  177472
+	[!] ssThresh:  4294967295
+	[!] throughput:  259200
+[+] Step: 65
 	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      42000       1440     311040      38880         16
-          2     177550      80000       5976      11952     230400]
+	[#] Next state:  [4294967295      44400       1440     322560      40320         16
+          2     178530      80000       5976      11952     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  42000
-	[!] rtt:  177550
+	[#] cWnd:  44400
+	[!] rtt:  178530
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 66
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      44400       1440     362880      40320         18
+          2     179243      80000       5976      11952     259200]
+	[!] Reward:  1.0
+	[#] cWnd:  44400
+	[!] rtt:  179243
+	[!] ssThresh:  4294967295
+	[!] throughput:  259200
+[+] Step: 67
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      44400       1440     322560      40320         16
+          2     179135      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  44400
+	[!] rtt:  179135
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 68
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      44250       1440     322560      40320         16
+          2     179245      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  44250
+	[!] rtt:  179245
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 69
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      44100       1440     362880      40320         18
+          2     179357      80000       5976      11952     259200]
+	[!] Reward:  1.0
+	[#] cWnd:  44100
+	[!] rtt:  179357
+	[!] ssThresh:  4294967295
+	[!] throughput:  259200
 [+] Step: 70
-	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      42000       1440     311040      38880         16
-          2     178856      80000       5976      11952     230400]
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      44100       1440     322560      40320         16
+          2     179129      80000       5976      11952     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  42000
-	[!] rtt:  178856
+	[#] cWnd:  44100
+	[!] rtt:  179129
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
 [+] Step: 71
 	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      43500       1440     361440      40160         18
-          2     178991      80000       5661      11952     259200]
+	[#] Next state:  [4294967295      45600       1440     332640      41580         16
+          2     179450      80000       5624      11952     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  43500
-	[!] rtt:  178991
+	[#] cWnd:  45600
+	[!] rtt:  179450
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
 [+] Step: 72
-	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      43500       1440     322560      40320         16
-          2     179265      80000       5976      11952     230400]
-	[!] Reward:  1.0
-	[#] cWnd:  43500
-	[!] rtt:  179265
-	[!] ssThresh:  4294967295
-[+] Step: 73
-	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      43500       1440     322560      40320         16
-          2     179315      80000       5976      11952     230400]
-	[!] Reward:  1.0
-	[#] cWnd:  43500
-	[!] rtt:  179315
-	[!] ssThresh:  4294967295
-[+] Step: 74
 	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      45000       1440     374400      41600         18
-          2     179142      80000       5661      11952     259200]
+	[#] Next state:  [4294967295      47100       1440     387360      43040         18
+          2     179380      80000       5661      11952     259200]
 	[!] Reward:  1.0
-	[#] cWnd:  45000
-	[!] rtt:  179142
+	[#] cWnd:  47100
+	[!] rtt:  179380
 	[!] ssThresh:  4294967295
+	[!] throughput:  259200
+[+] Step: 73
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      47100       1440     345600      43200         16
+          2     185175      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  47100
+	[!] rtt:  185175
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 74
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      47100       1440     345600      43200         16
+          2     189188      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  47100
+	[!] rtt:  189188
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
 [+] Step: 75
 	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      45000       1440     334080      41760         16
-          2     179642      80000       5976      11952     230400]
+	[#] Next state:  [4294967295      47100       1440     388800      43200         18
+          2     190424      80000       5976      11952     259200]
 	[!] Reward:  1.0
-	[#] cWnd:  45000
-	[!] rtt:  179642
+	[#] cWnd:  47100
+	[!] rtt:  190424
 	[!] ssThresh:  4294967295
+	[!] throughput:  259200
 [+] Step: 76
-	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      45000       1440     334080      41760         16
-          2     185166      80000       5976      11952     230400]
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      47100       1440     345600      43200         16
+          2     191172      80000       5976      11952     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  45000
-	[!] rtt:  185166
+	[#] cWnd:  47100
+	[!] rtt:  191172
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
 [+] Step: 77
-	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      45000       1440     375840      41760         18
-          2     189278      80000       5976      11952     259200]
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      48600       1440     400320      44480         18
+          2     191094      80000       5661      11952     259200]
 	[!] Reward:  1.0
-	[#] cWnd:  45000
-	[!] rtt:  189278
+	[#] cWnd:  48600
+	[!] rtt:  191094
 	[!] ssThresh:  4294967295
+	[!] throughput:  259200
 [+] Step: 78
-	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      46500       1440     344160      43020         16
-          2     190677      80000       5624      11952     230400]
-	[!] Reward:  1.0
-	[#] cWnd:  46500
-	[!] rtt:  190677
-	[!] ssThresh:  4294967295
-[+] Step: 79
-	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      48000       1440     400320      44480         18
-          2     190908      80000       5661      11952     259200]
-	[!] Reward:  1.0
-	[#] cWnd:  48000
-	[!] rtt:  190908
-	[!] ssThresh:  4294967295
-[+] Step: 80
-	[*] Random exploration. Selected action: 2
-	[#] Next state:  [4294967295      47850       1440     357120      44640         16
-          2     191326      80000       5976      11952     230400]
-	[!] Reward:  1.0
-	[#] cWnd:  47850
-	[!] rtt:  191326
-	[!] ssThresh:  4294967295
-[+] Step: 81
-	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      49350       1440     367200      45900         16
-          2     196260      80000       5624      11952     230400]
-	[!] Reward:  1.0
-	[#] cWnd:  49350
-	[!] rtt:  196260
-	[!] ssThresh:  4294967295
-[+] Step: 82
 	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      49350       1440     414720      46080         18
-          2     200929      80000       5976      11952     259200]
+	[#] Next state:  [4294967295      48600       1440     357120      44640         16
+          2     191228      80000       5976      11952     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  49350
-	[!] rtt:  200929
+	[#] cWnd:  48600
+	[!] rtt:  191228
 	[!] ssThresh:  4294967295
-[+] Step: 83
+	[!] throughput:  230400
+[+] Step: 79
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      48600       1440     357120      44640         16
+          2     196397      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  48600
+	[!] rtt:  196397
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 80
 	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      50850       1440     378720      47340         16
-          2     202541      80000       5624      11952     230400]
+	[#] Next state:  [4294967295      50100       1440     413280      45920         18
+          2     200851      80000       5661      11952     259200]
 	[!] Reward:  1.0
-	[#] cWnd:  50850
-	[!] rtt:  202541
+	[#] cWnd:  50100
+	[!] rtt:  200851
 	[!] ssThresh:  4294967295
+	[!] throughput:  259200
+[+] Step: 81
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      49950       1440     368640      46080         16
+          2     202605      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  49950
+	[!] rtt:  202605
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 82
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      51450       1440     378720      47340         16
+          2     202904      80000       5624      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  51450
+	[!] rtt:  202904
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 83
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      51450       1440     427680      47520         18
+          2     203091      80000       5976      11952     259200]
+	[!] Reward:  1.0
+	[#] cWnd:  51450
+	[!] rtt:  203091
+	[!] ssThresh:  4294967295
+	[!] throughput:  259200
 [+] Step: 84
-	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      50850       1440     380160      47520         16
-          2     202842      80000       5976      11952     230400]
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      52950       1440     390240      48780         16
+          2     207351      80000       5624      11952     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  50850
-	[!] rtt:  202842
+	[#] cWnd:  52950
+	[!] rtt:  207351
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
 [+] Step: 85
-	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      50850       1440     427680      47520         18
-          2     206815      80000       5976      11952     259200]
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      52800       1440     440640      48960         18
+          2     212510      80000       5976      11952     259200]
 	[!] Reward:  1.0
-	[#] cWnd:  50850
-	[!] rtt:  206815
+	[#] cWnd:  52800
+	[!] rtt:  212510
 	[!] ssThresh:  4294967295
+	[!] throughput:  259200
 [+] Step: 86
-	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      50850       1440     380160      47520         16
-          2     212374      80000       5976      11952     230400]
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      54300       1440     401760      50220         16
+          2     214415      80000       5624      11952     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  50850
-	[!] rtt:  212374
+	[#] cWnd:  54300
+	[!] rtt:  214415
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
 [+] Step: 87
 	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      50850       1440     427680      47520         18
-          2     214254      80000       5976      11952     259200]
+	[#] Next state:  [4294967295      54300       1440     403200      50400         16
+          2     214839      80000       5976      11952     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  50850
-	[!] rtt:  214254
+	[#] cWnd:  54300
+	[!] rtt:  214839
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
 [+] Step: 88
-	[*] Random exploration. Selected action: 2
-	[#] Next state:  [4294967295      50700       1440     380160      47520         16
-          2     214894      80000       5976      11952     230400]
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      54300       1440     453600      50400         18
+          2     217829      80000       5976      11952     259200]
 	[!] Reward:  1.0
-	[#] cWnd:  50700
-	[!] rtt:  214894
+	[#] cWnd:  54300
+	[!] rtt:  217829
 	[!] ssThresh:  4294967295
+	[!] throughput:  259200
 [+] Step: 89
-	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      52200       1440     390240      48780         16
-          2     214963      80000       5624      11952     230400]
-	[!] Reward:  1.0
-	[#] cWnd:  52200
-	[!] rtt:  214963
-	[!] ssThresh:  4294967295
-[+] Step: 90
-	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      52200       1440     440640      48960         18
-          2     215189      80000       5976      11952     259200]
-	[!] Reward:  1.0
-	[#] cWnd:  52200
-	[!] rtt:  215189
-	[!] ssThresh:  4294967295
-[+] Step: 91
-	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      52200       1440     391680      48960         16
-          2     215093      80000       5976      11952     230400]
-	[!] Reward:  1.0
-	[#] cWnd:  52200
-	[!] rtt:  215093
-	[!] ssThresh:  4294967295
-[+] Step: 92
 	[*] Random exploration. Selected action: 2
-	[#] Next state:  [4294967295      52050       1440     391680      48960         16
-          2     215118      80000       5976      11952     230400]
+	[#] Next state:  [4294967295      54150       1440     403200      50400         16
+          2     223953      80000       5976      11952     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  52050
-	[!] rtt:  215118
+	[#] cWnd:  54150
+	[!] rtt:  223953
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 90
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      54000       1440     403200      50400         16
+          2     225953      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  54000
+	[!] rtt:  225953
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 91
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      53850       1440     453600      50400         18
+          2     226788      80000       5976      11952     259200]
+	[!] Reward:  1.0
+	[#] cWnd:  53850
+	[!] rtt:  226788
+	[!] ssThresh:  4294967295
+	[!] throughput:  259200
+[+] Step: 92
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      55350       1440     413280      51660         16
+          2     226960      80000       5624      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  55350
+	[!] rtt:  226960
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
 [+] Step: 93
 	[*] Random exploration. Selected action: 2
-	[#] Next state:  [4294967295      51900       1440     437760      48640         18
-          2     215189      80000       5976      11952     259200]
+	[#] Next state:  [4294967295      55200       1440     414720      51840         16
+          2     227031      80000       5976      11952     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  51900
-	[!] rtt:  215189
+	[#] cWnd:  55200
+	[!] rtt:  227031
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
 [+] Step: 94
 	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      53400       1440     264960      33120         16
-          2     215060      80000          0      11952     230400]
+	[#] Next state:  [4294967295      56700       1440     478080      53120         18
+          2     227123      80000       5661      11952     259200]
 	[!] Reward:  1.0
-	[#] cWnd:  53400
-	[!] rtt:  215060
+	[#] cWnd:  56700
+	[!] rtt:  227123
 	[!] ssThresh:  4294967295
+	[!] throughput:  259200
 [+] Step: 95
 	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      53400       1440      80640      10080         16
-          2     215226      80000     215352      10648     230400]
+	[#] Next state:  [4294967295      56700       1440     420480      52560         16
+          2     227039      80000       6519      11952     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  53400
-	[!] rtt:  215226
+	[#] cWnd:  56700
+	[!] rtt:  227039
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
 [+] Step: 96
-	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      53400       1440          0          0          0
-          0          0      80000          0          0          0]
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      58200       1440     311040      34560         18
+          2     229996      80000          0      11952     259200]
 	[!] Reward:  1.0
-	[#] cWnd:  53400
-	[!] rtt:  0
+	[#] cWnd:  58200
+	[!] rtt:  229996
 	[!] ssThresh:  4294967295
+	[!] throughput:  259200
 [+] Step: 97
-	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      53400       1440          0          0          0
-          0          0      80000          0          0          0]
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      58050       1440      80640      10080         16
+          2     235979      80000     227304      10648     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  53400
-	[!] rtt:  0
+	[#] cWnd:  58050
+	[!] rtt:  235979
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
 [+] Step: 98
-	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      53400       1440          0          0          0
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      58050       1440          0          0          0
           0          0      80000          0          0          0]
 	[!] Reward:  1.0
-	[#] cWnd:  53400
+	[#] cWnd:  58050
 	[!] rtt:  0
 	[!] ssThresh:  4294967295
+	[!] throughput:  0
 [+] Step: 99
-	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      53400       1440          0          0          0
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      58050       1440          0          0          0
           0          0      80000          0          0          0]
 	[!] Reward:  1.0
-	[#] cWnd:  53400
+	[#] cWnd:  58050
 	[!] rtt:  0
 	[!] ssThresh:  4294967295
+	[!] throughput:  0
 [+] Step: 100
-	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      53400       1440          0          0          0
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      58050       1440          0          0          0
           0          0      80000          0          0          0]
 	[!] Reward:  1.0
-	[#] cWnd:  53400
+	[#] cWnd:  58050
 	[!] rtt:  0
 	[!] ssThresh:  4294967295
+	[!] throughput:  0
 [+] Step: 101
-	[*] Random exploration. Selected action: 2
-	[#] Next state:  [4294967295      53400       1440          0          0          0
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
           0          0      80000          0          0          0]
 	[!] Reward:  1.0
-	[#] cWnd:  53400
+	[#] cWnd:  58050
 	[!] rtt:  0
 	[!] ssThresh:  4294967295
+	[!] throughput:  0
 [+] Step: 102
-	[*] Random exploration. Selected action: 2
+	[*] Exploiting gained knowledge. Selected action: 0
 	[#] Next state:  [4294967295      14400       1440      12960      12960          1
           1      81125      80000          0          0      14400]
 	[!] Reward:  1.0
 	[#] cWnd:  14400
 	[!] rtt:  81125
 	[!] ssThresh:  4294967295
+	[!] throughput:  14400
 [+] Step: 103
 	[*] Random exploration. Selected action: 0
 	[#] Next state:  [4294967295      14400       1440          0          0          0
@@ -822,383 +924,1781 @@
 	[#] cWnd:  14400
 	[!] rtt:  0
 	[!] ssThresh:  4294967295
+	[!] throughput:  0
 [+] Step: 104
-	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      53400       1440          0          0          0
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
           0          0      80000          0          0          0]
 	[!] Reward:  1.0
-	[#] cWnd:  53400
+	[#] cWnd:  58050
 	[!] rtt:  0
 	[!] ssThresh:  4294967295
+	[!] throughput:  0
 [+] Step: 105
-	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      15900       1440      64800      12960         10
-          2      93636      80000      14785      17737     144000]
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      14400       1440      57600      11520         10
+          2      93636      80000      16129      17737     144000]
 	[!] Reward:  1.0
-	[#] cWnd:  15900
+	[#] cWnd:  14400
 	[!] rtt:  93636
 	[!] ssThresh:  4294967295
+	[!] throughput:  144000
 [+] Step: 106
-	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      53400       1440          0          0          0
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      58050       1440          0          0          0
           0          0      80000          0          0          0]
 	[!] Reward:  1.0
-	[#] cWnd:  53400
+	[#] cWnd:  58050
 	[!] rtt:  0
 	[!] ssThresh:  4294967295
+	[!] throughput:  0
 [+] Step: 107
-	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      15900       1440      77760      12960         12
-          2     106157      80000       8386      16773     172800]
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      15900       1440      63360      12672         10
+          2     103419      80000       8605      18932     144000]
 	[!] Reward:  1.0
 	[#] cWnd:  15900
-	[!] rtt:  106157
+	[!] rtt:  103419
 	[!] ssThresh:  4294967295
+	[!] throughput:  144000
 [+] Step: 108
-	[*] Random exploration. Selected action: 2
-	[#] Next state:  [4294967295      53400       1440          0          0          0
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
           0          0      80000          0          0          0]
 	[!] Reward:  1.0
-	[#] cWnd:  53400
+	[#] cWnd:  58050
 	[!] rtt:  0
 	[!] ssThresh:  4294967295
+	[!] throughput:  0
 [+] Step: 109
-	[*] Random exploration. Selected action: 2
-	[#] Next state:  [4294967295      15750       1440      70560      11760         12
-          2     106155      80000       9149      16773     172800]
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      15900       1440      77760      12960         12
+          2     102819      80000       8884      17769     172800]
 	[!] Reward:  1.0
-	[#] cWnd:  15750
-	[!] rtt:  106155
+	[#] cWnd:  15900
+	[!] rtt:  102819
 	[!] ssThresh:  4294967295
+	[!] throughput:  172800
 [+] Step: 110
-	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      53400       1440          0          0          0
-          0          0      80000          0          0          0]
-	[!] Reward:  1.0
-	[#] cWnd:  53400
-	[!] rtt:  0
-	[!] ssThresh:  4294967295
-[+] Step: 111
-	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      15750       1440      57600      11520         10
-          2     102678      80000       9466      18932     144000]
-	[!] Reward:  1.0
-	[#] cWnd:  15750
-	[!] rtt:  102678
-	[!] ssThresh:  4294967295
-[+] Step: 112
-	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      53400       1440          0          0          0
-          0          0      80000          0          0          0]
-	[!] Reward:  1.0
-	[#] cWnd:  53400
-	[!] rtt:  0
-	[!] ssThresh:  4294967295
-[+] Step: 113
-	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      15750       1440      69120      11520         12
-          2      98377      80000       9382      18765     172800]
-	[!] Reward:  1.0
-	[#] cWnd:  15750
-	[!] rtt:  98377
-	[!] ssThresh:  4294967295
-[+] Step: 114
-	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      53400       1440          0          0          0
-          0          0      80000          0          0          0]
-	[!] Reward:  1.0
-	[#] cWnd:  53400
-	[!] rtt:  0
-	[!] ssThresh:  4294967295
-[+] Step: 115
 	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      15750       1440      57600      11520         10
-          2      96476      80000       9466      18932     144000]
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
 	[!] Reward:  1.0
-	[#] cWnd:  15750
-	[!] rtt:  96476
+	[#] cWnd:  58050
+	[!] rtt:  0
 	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 111
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      17400       1440      84960      14160         12
+          2     105685      80000       7741      16773     172800]
+	[!] Reward:  1.0
+	[#] cWnd:  17400
+	[!] rtt:  105685
+	[!] ssThresh:  4294967295
+	[!] throughput:  172800
+[+] Step: 112
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 113
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      17400       1440     100800      14400         14
+          2     102765      80000       7615      15230     201600]
+	[!] Reward:  1.0
+	[#] cWnd:  17400
+	[!] rtt:  102765
+	[!] ssThresh:  4294967295
+	[!] throughput:  201600
+[+] Step: 114
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 115
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      18900       1440      93600      15600         12
+          2      98234      80000       7281      15777     172800]
+	[!] Reward:  1.0
+	[#] cWnd:  18900
+	[!] rtt:  98234
+	[!] ssThresh:  4294967295
+	[!] throughput:  172800
 [+] Step: 116
 	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      53400       1440          0          0          0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
           0          0      80000          0          0          0]
 	[!] Reward:  1.0
-	[#] cWnd:  53400
+	[#] cWnd:  58050
 	[!] rtt:  0
 	[!] ssThresh:  4294967295
+	[!] throughput:  0
 [+] Step: 117
-	[*] Random exploration. Selected action: 2
-	[#] Next state:  [4294967295      15750       1440      69120      11520         12
-          2      95654      80000       8884      17769     172800]
-	[!] Reward:  1.0
-	[#] cWnd:  15750
-	[!] rtt:  95654
-	[!] ssThresh:  4294967295
-[+] Step: 118
-	[*] Random exploration. Selected action: 2
-	[#] Next state:  [4294967295      53400       1440          0          0          0
-          0          0      80000          0          0          0]
-	[!] Reward:  1.0
-	[#] cWnd:  53400
-	[!] rtt:  0
-	[!] ssThresh:  4294967295
-[+] Step: 119
-	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      15600       1440      57600      11520         10
-          2      94933      80000       9466      18932     144000]
-	[!] Reward:  1.0
-	[#] cWnd:  15600
-	[!] rtt:  94933
-	[!] ssThresh:  4294967295
-[+] Step: 120
 	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      53400       1440          0          0          0
+	[#] Next state:  [4294967295      18900       1440     110880      15840         14
+          2     100165      80000       7188      14377     201600]
+	[!] Reward:  1.0
+	[#] cWnd:  18900
+	[!] rtt:  100165
+	[!] ssThresh:  4294967295
+	[!] throughput:  201600
+[+] Step: 118
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
           0          0      80000          0          0          0]
 	[!] Reward:  1.0
-	[#] cWnd:  53400
+	[#] cWnd:  58050
 	[!] rtt:  0
 	[!] ssThresh:  4294967295
-[+] Step: 121
-	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      17100       1440      63360      12672         10
-          2      94920      80000       8605      18932     144000]
+	[!] throughput:  0
+[+] Step: 119
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      18900       1440     110880      15840         14
+          2     101998      80000       7188      14377     201600]
 	[!] Reward:  1.0
-	[#] cWnd:  17100
-	[!] rtt:  94920
+	[#] cWnd:  18900
+	[!] rtt:  101998
 	[!] ssThresh:  4294967295
+	[!] throughput:  201600
+[+] Step: 120
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 121
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      18750       1440      95040      15840         12
+          2     103017      80000       7390      14781     172800]
+	[!] Reward:  1.0
+	[#] cWnd:  18750
+	[!] rtt:  103017
+	[!] ssThresh:  4294967295
+	[!] throughput:  172800
 [+] Step: 122
 	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      53400       1440          0          0          0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
           0          0      80000          0          0          0]
 	[!] Reward:  1.0
-	[#] cWnd:  53400
+	[#] cWnd:  58050
 	[!] rtt:  0
 	[!] ssThresh:  4294967295
+	[!] throughput:  0
 [+] Step: 123
-	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      17100       1440      64800      12960         10
-          2      97384      80000       8868      17737     144000]
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      18750       1440     110880      15840         14
+          2     103487      80000       7974      15948     201600]
 	[!] Reward:  1.0
-	[#] cWnd:  17100
-	[!] rtt:  97384
+	[#] cWnd:  18750
+	[!] rtt:  103487
 	[!] ssThresh:  4294967295
+	[!] throughput:  201600
 [+] Step: 124
 	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      53400       1440          0          0          0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
           0          0      80000          0          0          0]
 	[!] Reward:  1.0
-	[#] cWnd:  53400
+	[#] cWnd:  58050
 	[!] rtt:  0
 	[!] ssThresh:  4294967295
+	[!] throughput:  0
 [+] Step: 125
-	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      17100       1440      64800      12960         10
-          2     102134      80000       8868      17737     144000]
-	[!] Reward:  1.0
-	[#] cWnd:  17100
-	[!] rtt:  102134
-	[!] ssThresh:  4294967295
-[+] Step: 126
 	[*] Random exploration. Selected action: 2
-	[#] Next state:  [4294967295      53400       1440          0          0          0
-          0          0      80000          0          0          0]
+	[#] Next state:  [4294967295      18750       1440      95040      15840         12
+          2     103202      80000       7390      14781     172800]
 	[!] Reward:  1.0
-	[#] cWnd:  53400
-	[!] rtt:  0
+	[#] cWnd:  18750
+	[!] rtt:  103202
 	[!] ssThresh:  4294967295
-[+] Step: 127
-	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      16950       1440      77760      12960         12
-          2     104725      80000      10797      21594     172800]
-	[!] Reward:  1.0
-	[#] cWnd:  16950
-	[!] rtt:  104725
-	[!] ssThresh:  4294967295
-[+] Step: 128
+	[!] throughput:  172800
+[+] Step: 126
 	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      53400       1440          0          0          0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
           0          0      80000          0          0          0]
 	[!] Reward:  1.0
-	[#] cWnd:  53400
+	[#] cWnd:  58050
 	[!] rtt:  0
 	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 127
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      18750       1440     110880      15840         14
+          2     103551      80000       7615      15230     201600]
+	[!] Reward:  1.0
+	[#] cWnd:  18750
+	[!] rtt:  103551
+	[!] ssThresh:  4294967295
+	[!] throughput:  201600
+[+] Step: 128
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
 [+] Step: 129
 	[*] Random exploration. Selected action: 2
-	[#] Next state:  [4294967295      16950       1440      77760      12960         12
-          2     105750      80000       8386      16773     172800]
+	[#] Next state:  [4294967295      18750       1440     110880      15840         14
+          2     103622      80000       7188      14377     201600]
 	[!] Reward:  1.0
-	[#] cWnd:  16950
-	[!] rtt:  105750
+	[#] cWnd:  18750
+	[!] rtt:  103622
 	[!] ssThresh:  4294967295
+	[!] throughput:  201600
 [+] Step: 130
-	[*] Random exploration. Selected action: 2
-	[#] Next state:  [4294967295      53400       1440          0          0          0
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
           0          0      80000          0          0          0]
 	[!] Reward:  1.0
-	[#] cWnd:  53400
+	[#] cWnd:  58050
 	[!] rtt:  0
 	[!] ssThresh:  4294967295
+	[!] throughput:  0
 [+] Step: 131
-	[*] Random exploration. Selected action: 2
-	[#] Next state:  [4294967295      16800       1440      77760      12960         12
-          2     105855      80000       8386      16773     172800]
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      18750       1440     110880      15840         14
+          2     103262      80000       7188      14377     201600]
 	[!] Reward:  1.0
-	[#] cWnd:  16800
-	[!] rtt:  105855
+	[#] cWnd:  18750
+	[!] rtt:  103262
 	[!] ssThresh:  4294967295
+	[!] throughput:  201600
 [+] Step: 132
-	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      53400       1440          0          0          0
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
           0          0      80000          0          0          0]
 	[!] Reward:  1.0
-	[#] cWnd:  53400
+	[#] cWnd:  58050
 	[!] rtt:  0
 	[!] ssThresh:  4294967295
+	[!] throughput:  0
 [+] Step: 133
-	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      16800       1440      77760      12960         12
-          2     106214      80000       8386      16773     172800]
-	[!] Reward:  1.0
-	[#] cWnd:  16800
-	[!] rtt:  106214
-	[!] ssThresh:  4294967295
-[+] Step: 134
 	[*] Random exploration. Selected action: 2
-	[#] Next state:  [4294967295      53400       1440          0          0          0
+	[#] Next state:  [4294967295      18750       1440     110880      15840         14
+          2     103497      80000       7188      14377     201600]
+	[!] Reward:  1.0
+	[#] cWnd:  18750
+	[!] rtt:  103497
+	[!] ssThresh:  4294967295
+	[!] throughput:  201600
+[+] Step: 134
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      58050       1440          0          0          0
           0          0      80000          0          0          0]
 	[!] Reward:  1.0
-	[#] cWnd:  53400
+	[#] cWnd:  58050
 	[!] rtt:  0
 	[!] ssThresh:  4294967295
+	[!] throughput:  0
 [+] Step: 135
-	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      16650       1440      77760      12960         12
-          2     106093      80000       8386      16773     172800]
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      20250       1440     119520      17074         14
+          2     103391      80000       6709      14377     201600]
 	[!] Reward:  1.0
-	[#] cWnd:  16650
-	[!] rtt:  106093
+	[#] cWnd:  20250
+	[!] rtt:  103391
 	[!] ssThresh:  4294967295
+	[!] throughput:  201600
 [+] Step: 136
 	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      53400       1440          0          0          0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
           0          0      80000          0          0          0]
 	[!] Reward:  1.0
-	[#] cWnd:  53400
+	[#] cWnd:  58050
 	[!] rtt:  0
 	[!] ssThresh:  4294967295
+	[!] throughput:  0
 [+] Step: 137
-	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      18150       1440      70560      14112         10
-          2     106274      80000       8062      17737     144000]
-	[!] Reward:  1.0
-	[#] cWnd:  18150
-	[!] rtt:  106274
-	[!] ssThresh:  4294967295
-[+] Step: 138
-	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      53400       1440          0          0          0
-          0          0      80000          0          0          0]
-	[!] Reward:  1.0
-	[#] cWnd:  53400
-	[!] rtt:  0
-	[!] ssThresh:  4294967295
-[+] Step: 139
 	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      19650       1440      93600      15600         12
-          2     106215      80000       7741      16773     172800]
+	[#] Next state:  [4294967295      21750       1440     148320      18540         16
+          2      99654      80000       6271      13327     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  19650
-	[!] rtt:  106215
+	[#] cWnd:  21750
+	[!] rtt:  99654
 	[!] ssThresh:  4294967295
-[+] Step: 140
+	[!] throughput:  230400
+[+] Step: 138
 	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      53400       1440          0          0          0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
           0          0      80000          0          0          0]
 	[!] Reward:  1.0
-	[#] cWnd:  53400
+	[#] cWnd:  58050
 	[!] rtt:  0
 	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 139
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      21750       1440     149760      18720         16
+          2     100094      80000       6290      12580     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  21750
+	[!] rtt:  100094
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 140
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
 [+] Step: 141
 	[*] Random exploration. Selected action: 0
-	[#] Next state:  [4294967295      19650       1440      95040      15840         12
-          2     104022      80000       7888      15777     172800]
+	[#] Next state:  [4294967295      21600       1440     131040      18720         14
+          2     100837      80000       6334      12669     201600]
 	[!] Reward:  1.0
-	[#] cWnd:  19650
-	[!] rtt:  104022
+	[#] cWnd:  21600
+	[!] rtt:  100837
 	[!] ssThresh:  4294967295
+	[!] throughput:  201600
 [+] Step: 142
-	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      53400       1440          0          0          0
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      58050       1440          0          0          0
           0          0      80000          0          0          0]
 	[!] Reward:  1.0
-	[#] cWnd:  53400
+	[#] cWnd:  58050
 	[!] rtt:  0
 	[!] ssThresh:  4294967295
+	[!] throughput:  0
 [+] Step: 143
-	[*] Random exploration. Selected action: 2
-	[#] Next state:  [4294967295      19650       1440     110880      15840         14
-          2     105410      80000       8401      16802     201600]
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      23100       1440     159840      19980         16
+          2     101067      80000       6215      13208     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  19650
-	[!] rtt:  105410
+	[#] cWnd:  23100
+	[!] rtt:  101067
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
 [+] Step: 144
 	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      53400       1440          0          0          0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
           0          0      80000          0          0          0]
 	[!] Reward:  1.0
-	[#] cWnd:  53400
+	[#] cWnd:  58050
 	[!] rtt:  0
 	[!] ssThresh:  4294967295
+	[!] throughput:  0
 [+] Step: 145
 	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      19650       1440     110880      15840         14
-          2     104472      80000       7188      14377     201600]
+	[#] Next state:  [4294967295      23100       1440     161280      20160         16
+          2     101270      80000       5976      11952     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  19650
-	[!] rtt:  104472
+	[#] cWnd:  23100
+	[!] rtt:  101270
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
 [+] Step: 146
-	[*] Random exploration. Selected action: 1
-	[#] Next state:  [4294967295      53400       1440          0          0          0
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
           0          0      80000          0          0          0]
 	[!] Reward:  1.0
-	[#] cWnd:  53400
+	[#] cWnd:  58050
 	[!] rtt:  0
 	[!] ssThresh:  4294967295
+	[!] throughput:  0
 [+] Step: 147
-	[*] Random exploration. Selected action: 2
-	[#] Next state:  [4294967295      21150       1440     102240      17040         12
-          2     103710      80000       6822      14781     172800]
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      23100       1440     181440      20160         18
+          2      98051      80000       5976      11952     259200]
 	[!] Reward:  1.0
-	[#] cWnd:  21150
-	[!] rtt:  103710
+	[#] cWnd:  23100
+	[!] rtt:  98051
 	[!] ssThresh:  4294967295
+	[!] throughput:  259200
 [+] Step: 148
-	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      53400       1440          0          0          0
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
           0          0      80000          0          0          0]
 	[!] Reward:  1.0
-	[#] cWnd:  53400
+	[#] cWnd:  58050
 	[!] rtt:  0
 	[!] ssThresh:  4294967295
+	[!] throughput:  0
 [+] Step: 149
-	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      21150       1440     138240      17280         16
-          2     102115      80000       6663      13327     230400]
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      23100       1440     161280      20160         16
+          2      96461      80000       5976      11952     230400]
 	[!] Reward:  1.0
-	[#] cWnd:  21150
-	[!] rtt:  102115
+	[#] cWnd:  23100
+	[!] rtt:  96461
 	[!] ssThresh:  4294967295
+	[!] throughput:  230400
 [+] Step: 150
-	[*] Exploiting gained knowledge. Selected action: 0
-	[#] Next state:  [4294967295      53400       1440          0          0          0
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
           0          0      80000          0          0          0]
 	[!] Reward:  1.0
-	[#] cWnd:  53400
+	[#] cWnd:  58050
 	[!] rtt:  0
 	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 151
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      23100       1440     181440      20160         18
+          2      95912      80000       5976      11952     259200]
+	[!] Reward:  1.0
+	[#] cWnd:  23100
+	[!] rtt:  95912
+	[!] ssThresh:  4294967295
+	[!] throughput:  259200
+[+] Step: 152
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 153
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      22950       1440     151200      18900         16
+          2      95573      80000       6374      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  22950
+	[!] rtt:  95573
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 154
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 155
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      22950       1440     131040      18720         14
+          2      97801      80000       6334      12669     201600]
+	[!] Reward:  1.0
+	[#] cWnd:  22950
+	[!] rtt:  97801
+	[!] ssThresh:  4294967295
+	[!] throughput:  201600
+[+] Step: 156
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 157
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      24450       1440     159840      19980         16
+          2      99957      80000       6215      13208     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  24450
+	[!] rtt:  99957
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 158
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 159
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      25950       1440     204480      22720         18
+          2     100479      80000       5378      11952     259200]
+	[!] Reward:  1.0
+	[#] cWnd:  25950
+	[!] rtt:  100479
+	[!] ssThresh:  4294967295
+	[!] throughput:  259200
+[+] Step: 160
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 161
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      25800       1440     174240      21780         16
+          2     103159      80000       6374      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  25800
+	[!] rtt:  103159
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 162
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 163
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      25650       1440     172800      21600         16
+          2     105807      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  25650
+	[!] rtt:  105807
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 164
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 165
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      25500       1440     194400      21600         18
+          2     107130      80000       5976      11952     259200]
+	[!] Reward:  1.0
+	[#] cWnd:  25500
+	[!] rtt:  107130
+	[!] ssThresh:  4294967295
+	[!] throughput:  259200
+[+] Step: 166
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 167
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      25500       1440     172800      21600         16
+          2     107380      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  25500
+	[!] rtt:  107380
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 168
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 169
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      25500       1440     194400      21600         18
+          2     107429      80000       5976      11952     259200]
+	[!] Reward:  1.0
+	[#] cWnd:  25500
+	[!] rtt:  107429
+	[!] ssThresh:  4294967295
+	[!] throughput:  259200
+[+] Step: 170
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 171
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      25350       1440     172800      21600         16
+          2     107727      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  25350
+	[!] rtt:  107727
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 172
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 173
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      25200       1440     172800      21600         16
+          2     107365      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  25200
+	[!] rtt:  107365
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 174
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 175
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      25050       1440     194400      21600         18
+          2     107687      80000       5976      11952     259200]
+	[!] Reward:  1.0
+	[#] cWnd:  25050
+	[!] rtt:  107687
+	[!] ssThresh:  4294967295
+	[!] throughput:  259200
+[+] Step: 176
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 177
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      26550       1440     182880      22860         16
+          2     107557      80000       5624      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  26550
+	[!] rtt:  107557
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 178
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 179
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      28050       1440     194400      24300         16
+          2     107459      80000       5624      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  28050
+	[!] rtt:  107459
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 180
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 181
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      28050       1440     220320      24480         18
+          2     111406      80000       5976      11952     259200]
+	[!] Reward:  1.0
+	[#] cWnd:  28050
+	[!] rtt:  111406
+	[!] ssThresh:  4294967295
+	[!] throughput:  259200
+[+] Step: 182
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 183
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      29550       1440     205920      25740         16
+          2     116636      80000       5624      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  29550
+	[!] rtt:  116636
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 184
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 185
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      29400       1440     233280      25920         18
+          2     118749      80000       5976      11952     259200]
+	[!] Reward:  1.0
+	[#] cWnd:  29400
+	[!] rtt:  118749
+	[!] ssThresh:  4294967295
+	[!] throughput:  259200
+[+] Step: 186
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 187
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      29400       1440     207360      25920         16
+          2     119259      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  29400
+	[!] rtt:  119259
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 188
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 189
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      29250       1440     207360      25920         16
+          2     119287      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  29250
+	[!] rtt:  119287
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 190
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 191
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      29250       1440     233280      25920         18
+          2     119673      80000       5976      11952     259200]
+	[!] Reward:  1.0
+	[#] cWnd:  29250
+	[!] rtt:  119673
+	[!] ssThresh:  4294967295
+	[!] throughput:  259200
+[+] Step: 192
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 193
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      29250       1440     207360      25920         16
+          2     119321      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  29250
+	[!] rtt:  119321
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 194
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 195
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      30750       1440     217440      27180         16
+          2     119602      80000       5624      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  30750
+	[!] rtt:  119602
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 196
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 197
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      30750       1440     246240      27360         18
+          2     122347      80000       5976      11952     259200]
+	[!] Reward:  1.0
+	[#] cWnd:  30750
+	[!] rtt:  122347
+	[!] ssThresh:  4294967295
+	[!] throughput:  259200
+[+] Step: 198
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 199
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      30750       1440     218880      27360         16
+          2     128261      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  30750
+	[!] rtt:  128261
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 200
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 201
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      32250       1440     228960      28620         16
+          2     130610      80000       5624      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  32250
+	[!] rtt:  130610
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 202
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 203
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      32250       1440     259200      28800         18
+          2     130954      80000       5976      11952     259200]
+	[!] Reward:  1.0
+	[#] cWnd:  32250
+	[!] rtt:  130954
+	[!] ssThresh:  4294967295
+	[!] throughput:  259200
+[+] Step: 204
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 205
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      32100       1440     230400      28800         16
+          2     131478      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  32100
+	[!] rtt:  131478
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 206
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 207
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      31950       1440     259200      28800         18
+          2     131451      80000       5976      11952     259200]
+	[!] Reward:  1.0
+	[#] cWnd:  31950
+	[!] rtt:  131451
+	[!] ssThresh:  4294967295
+	[!] throughput:  259200
+[+] Step: 208
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 209
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      31950       1440     230400      28800         16
+          2     131342      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  31950
+	[!] rtt:  131342
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 210
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 211
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      33450       1440     240480      30060         16
+          2     131668      80000       5624      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  33450
+	[!] rtt:  131668
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 212
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 213
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      33300       1440     272160      30240         18
+          2     133405      80000       5976      11952     259200]
+	[!] Reward:  1.0
+	[#] cWnd:  33300
+	[!] rtt:  133405
+	[!] ssThresh:  4294967295
+	[!] throughput:  259200
+[+] Step: 214
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 215
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      33300       1440     241920      30240         16
+          2     139980      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  33300
+	[!] rtt:  139980
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 216
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 217
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      33300       1440     241920      30240         16
+          2     142275      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  33300
+	[!] rtt:  142275
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 218
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 219
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      34800       1440     283680      31520         18
+          2     142886      80000       5661      11952     259200]
+	[!] Reward:  1.0
+	[#] cWnd:  34800
+	[!] rtt:  142886
+	[!] ssThresh:  4294967295
+	[!] throughput:  259200
+[+] Step: 220
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 221
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      34800       1440     253440      31680         16
+          2     143502      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  34800
+	[!] rtt:  143502
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 222
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 223
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      34800       1440     253440      31680         16
+          2     143243      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  34800
+	[!] rtt:  143243
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 224
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 225
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      34800       1440     285120      31680         18
+          2     143457      80000       5976      11952     259200]
+	[!] Reward:  1.0
+	[#] cWnd:  34800
+	[!] rtt:  143457
+	[!] ssThresh:  4294967295
+	[!] throughput:  259200
+[+] Step: 226
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 227
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      34800       1440     253440      31680         16
+          2     143402      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  34800
+	[!] rtt:  143402
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 228
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 229
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      36300       1440     296640      32960         18
+          2     143307      80000       5661      11952     259200]
+	[!] Reward:  1.0
+	[#] cWnd:  36300
+	[!] rtt:  143307
+	[!] ssThresh:  4294967295
+	[!] throughput:  259200
+[+] Step: 230
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 231
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      36150       1440     264960      33120         16
+          2     145263      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  36150
+	[!] rtt:  145263
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 232
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 233
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      36000       1440     264960      33120         16
+          2     151209      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  36000
+	[!] rtt:  151209
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 234
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 235
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      36000       1440     298080      33120         18
+          2     154144      80000       5976      11952     259200]
+	[!] Reward:  1.0
+	[#] cWnd:  36000
+	[!] rtt:  154144
+	[!] ssThresh:  4294967295
+	[!] throughput:  259200
+[+] Step: 236
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 237
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      36000       1440     264960      33120         16
+          2     154985      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  36000
+	[!] rtt:  154985
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 238
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 239
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      36000       1440     264960      33120         16
+          2     155081      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  36000
+	[!] rtt:  155081
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 240
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 241
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      35850       1440     286560      31840         18
+          2     155511      80000       6327      11952     259200]
+	[!] Reward:  1.0
+	[#] cWnd:  35850
+	[!] rtt:  155511
+	[!] ssThresh:  4294967295
+	[!] throughput:  259200
+[+] Step: 242
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 243
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      37350       1440     263520      32940         16
+          2     153565      80000       5624      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  37350
+	[!] rtt:  153565
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 244
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 245
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      38850       1440     309600      34400         18
+          2     148824      80000       5661      11952     259200]
+	[!] Reward:  1.0
+	[#] cWnd:  38850
+	[!] rtt:  148824
+	[!] ssThresh:  4294967295
+	[!] throughput:  259200
+[+] Step: 246
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 247
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      38700       1440     276480      34560         16
+          2     152599      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  38700
+	[!] rtt:  152599
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 248
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 249
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      38700       1440     276480      34560         16
+          2     154261      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  38700
+	[!] rtt:  154261
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 250
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 251
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      38700       1440     311040      34560         18
+          2     155244      80000       5976      11952     259200]
+	[!] Reward:  1.0
+	[#] cWnd:  38700
+	[!] rtt:  155244
+	[!] ssThresh:  4294967295
+	[!] throughput:  259200
+[+] Step: 252
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 253
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      38700       1440     276480      34560         16
+          2     155135      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  38700
+	[!] rtt:  155135
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 254
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 255
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      38700       1440     276480      34560         16
+          2     155390      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  38700
+	[!] rtt:  155390
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 256
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 257
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      38700       1440     311040      34560         18
+          2     155345      80000       5976      11952     259200]
+	[!] Reward:  1.0
+	[#] cWnd:  38700
+	[!] rtt:  155345
+	[!] ssThresh:  4294967295
+	[!] throughput:  259200
+[+] Step: 258
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 259
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      38700       1440     276480      34560         16
+          2     155247      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  38700
+	[!] rtt:  155247
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 260
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 261
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      38550       1440     276480      34560         16
+          2     155563      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  38550
+	[!] rtt:  155563
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 262
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 263
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      38400       1440     311040      34560         18
+          2     155221      80000       5976      11952     259200]
+	[!] Reward:  1.0
+	[#] cWnd:  38400
+	[!] rtt:  155221
+	[!] ssThresh:  4294967295
+	[!] throughput:  259200
+[+] Step: 264
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 265
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      38250       1440     276480      34560         16
+          2     155495      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  38250
+	[!] rtt:  155495
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 266
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 267
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      38250       1440     311040      34560         18
+          2     155379      80000       5976      11952     259200]
+	[!] Reward:  1.0
+	[#] cWnd:  38250
+	[!] rtt:  155379
+	[!] ssThresh:  4294967295
+	[!] throughput:  259200
+[+] Step: 268
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 269
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      39750       1440     286560      35820         16
+          2     155258      80000       5624      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  39750
+	[!] rtt:  155258
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 270
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 271
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      39750       1440     288000      36000         16
+          2     156105      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  39750
+	[!] rtt:  156105
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 272
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 273
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      39750       1440     324000      36000         18
+          2     162225      80000       5976      11952     259200]
+	[!] Reward:  1.0
+	[#] cWnd:  39750
+	[!] rtt:  162225
+	[!] ssThresh:  4294967295
+	[!] throughput:  259200
+[+] Step: 274
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 275
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      39750       1440     288000      36000         16
+          2     165827      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  39750
+	[!] rtt:  165827
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 276
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 277
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      39750       1440     288000      36000         16
+          2     166827      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  39750
+	[!] rtt:  166827
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 278
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 279
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      39750       1440     324000      36000         18
+          2     167020      80000       5976      11952     259200]
+	[!] Reward:  1.0
+	[#] cWnd:  39750
+	[!] rtt:  167020
+	[!] ssThresh:  4294967295
+	[!] throughput:  259200
+[+] Step: 280
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 281
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      39750       1440     288000      36000         16
+          2     167459      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  39750
+	[!] rtt:  167459
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 282
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 283
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      39750       1440     324000      36000         18
+          2     167187      80000       5976      11952     259200]
+	[!] Reward:  1.0
+	[#] cWnd:  39750
+	[!] rtt:  167187
+	[!] ssThresh:  4294967295
+	[!] throughput:  259200
+[+] Step: 284
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 285
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      39750       1440     288000      36000         16
+          2     167387      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  39750
+	[!] rtt:  167387
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 286
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 287
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      39750       1440     288000      36000         16
+          2     167297      80000       5976      11952     230400]
+	[!] Reward:  1.0
+	[#] cWnd:  39750
+	[!] rtt:  167297
+	[!] ssThresh:  4294967295
+	[!] throughput:  230400
+[+] Step: 288
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 289
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      39600       1440     231840      25760         18
+          2     167219      80000      11952      11952     259200]
+	[!] Reward:  1.0
+	[#] cWnd:  39600
+	[!] rtt:  167219
+	[!] ssThresh:  4294967295
+	[!] throughput:  259200
+[+] Step: 290
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 291
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      39450       1440      28800       5760         10
+          2     167564      80000     155592       9996     144000]
+	[!] Reward:  1.0
+	[#] cWnd:  39450
+	[!] rtt:  167564
+	[!] ssThresh:  4294967295
+	[!] throughput:  144000
+[+] Step: 292
+	[*] Exploiting gained knowledge. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 293
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      39450       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  39450
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 294
+	[*] Exploiting gained knowledge. Selected action: 1
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 295
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      39450       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  39450
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 296
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 297
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      39450       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  39450
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 298
+	[*] Random exploration. Selected action: 0
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 299
+	[*] Random exploration. Selected action: 2
+	[#] Next state:  [4294967295      39450       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  39450
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
+[+] Step: 300
+	[*] Random exploration. Selected action: 1
+	[#] Next state:  [4294967295      58050       1440          0          0          0
+          0          0      80000          0          0          0]
+	[!] Reward:  1.0
+	[#] cWnd:  58050
+	[!] rtt:  0
+	[!] ssThresh:  4294967295
+	[!] throughput:  0
 
 [O] Iteration over.
-[-] Final epsilon value:  0.6060243029572018
-[-] Final reward sum:  150.0
+[-] Final epsilon value:  0.6062777102118186
+[-] Final reward sum:  300.0
